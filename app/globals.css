@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* RenoTake Brand Colors */
+    --brand-primary: 165 82% 35%; /* #00A67E - Primary Green */
+    --brand-charcoal: 16 7% 15%; /* #292524 - Charcoal */
+    --brand-success: 158 60% 42%; /* #10B981 - Success Green */
+    --brand-hdb: 14 100% 74%; /* #FF9A7A - HDB Orange */
+    --brand-condo: 203 58% 42%; /* #2E86AB - Condo Blue */
+    --brand-landed: 36 42% 58%; /* #D4A574 - Landed Gold */
+
+    /* Light Theme (Default) */
+    --background: 0 0% 100%; /* White background */
+    --foreground: 16 7% 15%; /* Charcoal text */
+
+    /* Component backgrounds */
+    --card: 0 0% 100%; /* White cards */
+    --card-foreground: 16 7% 15%; /* Charcoal text on cards */
+    --popover: 0 0% 100%;
+    --popover-foreground: 16 7% 15%;
+
+    /* Primary brand colors */
+    --primary: 165 82% 35%; /* RenoTake Green */
+    --primary-foreground: 0 0% 100%; /* White on green */
+
+    /* Secondary colors */
+    --secondary: 0 0% 96%; /* Light gray */
+    --secondary-foreground: 16 7% 15%;
+
+    /* Muted colors for subtle elements */
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+
+    /* Accent colors */
+    --accent: 165 82% 95%; /* Light green tint */
+    --accent-foreground: 165 82% 25%; /* Dark green */
+
+    /* Destructive/Error colors */
+    --destructive: 0 84% 60%; /* Red for errors */
+    --destructive-foreground: 0 0% 100%;
+
+    /* Border and input colors */
+    --border: 0 0% 90%; /* Light gray borders */
+    --input: 0 0% 90%;
+    --ring: 165 82% 35%; /* Green focus ring */
+
+    /* Chart colors for data visualization */
+    --chart-1: 165 82% 35%; /* Primary green */
+    --chart-2: 14 100% 74%; /* HDB orange */
+    --chart-3: 203 58% 42%; /* Condo blue */
+    --chart-4: 36 42% 58%; /* Landed gold */
+    --chart-5: 158 60% 42%; /* Success green */
+
+    /* Border radius */
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Dark theme (optional, for future use) */
+    --background: 16 7% 8%;
+    --foreground: 0 0% 95%;
+
+    --card: 16 7% 12%;
+    --card-foreground: 0 0% 95%;
+    --popover: 16 7% 12%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 165 82% 35%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 16 7% 20%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 16 7% 20%;
+    --muted-foreground: 0 0% 60%;
+
+    --accent: 165 82% 25%;
+    --accent-foreground: 165 82% 90%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 16 7% 25%;
+    --input: 16 7% 25%;
+    --ring: 165 82% 35%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Custom scrollbar for better UX */
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-muted;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted-foreground/30 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground/50;
+  }
+}
+
+@layer components {
+  /* Brand color utilities */
+  .text-brand-primary {
+    color: hsl(var(--brand-primary));
+  }
+
+  .bg-brand-primary {
+    background-color: hsl(var(--brand-primary));
+  }
+
+  .text-brand-charcoal {
+    color: hsl(var(--brand-charcoal));
+  }
+
+  .bg-brand-charcoal {
+    background-color: hsl(var(--brand-charcoal));
+  }
+
+  .border-brand-primary {
+    border-color: hsl(var(--brand-primary));
+  }
+
+  /* Typography utilities */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Focus styles for accessibility */
+  .focus-ring {
+    @apply focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background;
+  }
+}
