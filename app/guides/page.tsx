@@ -7,16 +7,16 @@ export default function GuidesPage() {
   return (
     <div className="min-h-screen bg-white">
       <main className="container mx-auto px-4 py-12">
-        <div className="max-w-5xl mx-auto">
-          <h1 className="text-4xl font-bold mb-4">Renovation Guides</h1>
-          <p className="text-xl text-gray-600 mb-12">
+        <div className="mx-auto max-w-5xl">
+          <h1 className="mb-4 text-4xl font-bold">Renovation Guides</h1>
+          <p className="mb-12 text-xl text-gray-600">
             Comprehensive, step-by-step guides for every aspect of your Singapore renovation journey
           </p>
 
           <div className="grid gap-8">
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="transition-shadow hover:shadow-lg">
               <CardHeader>
-                <div className="flex items-center gap-3 mb-2">
+                <div className="mb-2 flex items-center gap-3">
                   <Home className="h-6 w-6 text-green-600" />
                   <span className="text-sm font-medium text-green-600">FEATURED GUIDE</span>
                 </div>
@@ -26,10 +26,10 @@ export default function GuidesPage() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-4">
-                  Everything you need to know about renovating your BTO flat, including HDB regulations,
-                  permit requirements, timeline planning, and cost breakdowns. This comprehensive guide
-                  walks you through every phase of your renovation journey.
+                <p className="mb-4 text-gray-600">
+                  Everything you need to know about renovating your BTO flat, including HDB
+                  regulations, permit requirements, timeline planning, and cost breakdowns. This
+                  comprehensive guide walks you through every phase of your renovation journey.
                 </p>
                 <div className="flex items-center gap-4 text-sm text-gray-500">
                   <span className="flex items-center gap-1">
@@ -47,7 +47,7 @@ export default function GuidesPage() {
               </CardContent>
             </Card>
 
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid gap-6 md:grid-cols-2">
               <GuideCard
                 title="Singapore Renovation Budgeting Bible"
                 description="Line-by-line cost breakdowns, hidden costs, and when to splurge vs save"
@@ -81,16 +81,16 @@ export default function GuidesPage() {
         </div>
       </main>
 
-      <footer className="border-t border-gray-200 py-12 bg-gray-50 mt-20">
+      <footer className="mt-20 border-t border-gray-200 bg-gray-50 py-12">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <Link href="/" className="text-xl font-bold">
               Reno<span className="text-green-600">Take</span>
             </Link>
-            <p className="text-gray-600 text-sm mt-2">
+            <p className="mt-2 text-sm text-gray-600">
               Singapore's trusted renovation guide for BTO owners and homeowners.
             </p>
-            <p className="text-gray-500 text-xs mt-4">
+            <p className="mt-4 text-xs text-gray-500">
               © {new Date().getFullYear()} RenoTake. All rights reserved.
             </p>
           </div>
@@ -100,12 +100,20 @@ export default function GuidesPage() {
   )
 }
 
-function GuideCard({ title, description, icon, readTime, link }) {
+interface GuideCardProps {
+  title: string
+  description: string
+  icon: React.ReactNode
+  readTime: string
+  link: string
+}
+
+function GuideCard({ title, description, icon, readTime, link }: GuideCardProps) {
   return (
     <Link href={link}>
-      <Card className="h-full hover:shadow-lg transition-shadow cursor-pointer">
+      <Card className="h-full cursor-pointer transition-shadow hover:shadow-lg">
         <CardHeader>
-          <div className="text-green-600 mb-2">{icon}</div>
+          <div className="mb-2 text-green-600">{icon}</div>
           <CardTitle className="text-lg">{title}</CardTitle>
           <CardDescription>{description}</CardDescription>
         </CardHeader>

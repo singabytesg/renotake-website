@@ -1,6 +1,7 @@
 # RenoTake Color System Documentation
 
 ## Overview
+
 The RenoTake color system has been designed with accessibility, consistency, and brand identity in mind. All colors maintain WCAG AA compliance for contrast ratios.
 
 ## Core Principles
@@ -13,6 +14,7 @@ The RenoTake color system has been designed with accessibility, consistency, and
 ## Color Palette
 
 ### Primary Colors
+
 - **Primary Green** `#00A67E` - Brand identity, CTAs, links
   - Usage: Primary buttons, important links, brand elements
   - Always pair with white text for contrast
@@ -25,12 +27,14 @@ The RenoTake color system has been designed with accessibility, consistency, and
   - Usage: Main page background, cards, modals
 
 ### Supporting Brand Colors
+
 - **HDB Orange** `#FF9A7A` - For HDB-specific content
 - **Condo Blue** `#2E86AB` - For condo-related content
 - **Landed Gold** `#D4A574` - For landed property content
 - **Success Green** `#10B981` - Success messages, positive indicators
 
 ### Neutral Colors
+
 - **Light Gray** `#F5F5F5` - Alternate section backgrounds
 - **Border Gray** `#E5E5E5` - Card borders, dividers
 - **Text Gray** `#737373` - Secondary text, descriptions
@@ -39,6 +43,7 @@ The RenoTake color system has been designed with accessibility, consistency, and
 ## Usage Guidelines
 
 ### Text Colors
+
 ```css
 /* Primary text - always on white backgrounds */
 color: #292524; /* Charcoal */
@@ -47,29 +52,31 @@ color: #292524; /* Charcoal */
 color: #737373; /* Gray */
 
 /* Text on colored backgrounds */
-background: #00A67E; /* Green */
-color: #FFFFFF; /* Always white on green */
+background: #00a67e; /* Green */
+color: #ffffff; /* Always white on green */
 ```
 
 ### Backgrounds
+
 ```css
 /* Main content */
-background: #FFFFFF;
+background: #ffffff;
 
 /* Alternate sections */
-background: #F5F5F5;
+background: #f5f5f5;
 
 /* Feature sections */
-background: #F0FDF4; /* Green tint */
+background: #f0fdf4; /* Green tint */
 
 /* Cards */
-background: #FFFFFF;
-border: 1px solid #E5E5E5;
+background: #ffffff;
+border: 1px solid #e5e5e5;
 ```
 
 ### Interactive Elements
 
 #### Buttons
+
 - **Primary**: Green background (#00A67E), white text
   - Hover: Darken by 10% (#008060)
 - **Secondary**: White background, green text, gray border
@@ -77,26 +84,30 @@ border: 1px solid #E5E5E5;
 - **Ghost**: Transparent, green text on hover
 
 #### Links
+
 - Default: Green (#00A67E)
 - Hover: Darker green (#008060)
 - Visited: Same as default (no purple)
 
 #### Focus States
+
 - Green ring (#00A67E) with 2px offset
 - Always visible for keyboard navigation
 
 ## Component Examples
 
 ### Cards
+
 ```css
 .card {
   background: white;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   /* Text inside is always charcoal */
 }
 ```
 
 ### Sections
+
 ```css
 /* Primary section */
 .section-primary {
@@ -106,13 +117,13 @@ border: 1px solid #E5E5E5;
 
 /* Alternate section */
 .section-alt {
-  background: #F5F5F5;
+  background: #f5f5f5;
   color: #292524;
 }
 
 /* Feature section */
 .section-feature {
-  background: #F0FDF4; /* Light green tint */
+  background: #f0fdf4; /* Light green tint */
   color: #292524;
 }
 ```
@@ -120,11 +131,13 @@ border: 1px solid #E5E5E5;
 ## Accessibility
 
 ### Contrast Ratios
+
 - Charcoal on White: 14.5:1 ✓ (AAA)
 - White on Green: 4.8:1 ✓ (AA)
 - Gray on White: 4.6:1 ✓ (AA)
 
 ### Color Blindness Considerations
+
 - Never rely on color alone to convey information
 - Use icons, text labels, and patterns as additional indicators
 - Green/red combinations are avoided except for success/error states
@@ -132,6 +145,7 @@ border: 1px solid #E5E5E5;
 ## Implementation
 
 ### CSS Variables
+
 All colors are defined as CSS custom properties in `/app/globals.css`:
 
 ```css
@@ -144,7 +158,9 @@ All colors are defined as CSS custom properties in `/app/globals.css`:
 ```
 
 ### Tailwind Classes
+
 Use these Tailwind classes for consistency:
+
 - `text-foreground` - Charcoal text
 - `bg-primary` - Green background
 - `text-primary-foreground` - White text on green
@@ -152,6 +168,7 @@ Use these Tailwind classes for consistency:
 - `border-border` - Gray borders
 
 ## Testing
+
 Visit `/test-colors` in development to see all color combinations and verify contrast ratios.
 
 ## Common Mistakes to Avoid

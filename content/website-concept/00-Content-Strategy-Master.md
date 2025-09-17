@@ -10,8 +10,8 @@ Generate exhaustive lists of article topics covering the full spectrum of renova
 \#\#\# OUTPUT FORMAT:  
 Generate topics in batches of 20-30, formatted as:  
 \- \*\*\[Category\]\*\*: \[Specific Topic/Question\]  
-  \- Variations: \[2-3 related angles\]  
-  \- Search Intent: \[Informational/Transactional/Comparison/Troubleshooting\]
+ \- Variations: \[2-3 related angles\]  
+ \- Search Intent: \[Informational/Transactional/Comparison/Troubleshooting\]
 
 \#\#\# COMPREHENSIVE TOPIC CATEGORIES:
 
@@ -307,4 +307,3 @@ Each topic must be:
 \- \[ \] SEO-friendly format
 
 Remember: Generate topics that cover EVERY possible question a Singapore renovator might type into Google, from the most basic "Can I paint my own wall?" to complex technical queries. Mix practical, regulatory, aesthetic, financial, and troubleshooting topics to ensure comprehensive coverage.
-

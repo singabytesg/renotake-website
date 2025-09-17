@@ -5,8 +5,28 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Home, Calculator, FileText, HelpCircle, Clock, Users, DollarSign, Hammer, Building, MessageSquare, CheckCircle, AlertCircle } from "lucide-react"
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
+import {
+  Home,
+  Calculator,
+  FileText,
+  HelpCircle,
+  Clock,
+  Users,
+  DollarSign,
+  Hammer,
+  Building,
+  MessageSquare,
+  CheckCircle,
+  AlertCircle,
+} from "lucide-react"
 import { useToast } from "@/components/ui/use-toast"
 
 export default function HomePage() {
@@ -43,16 +63,17 @@ export default function HomePage() {
     <div className="min-h-screen bg-white">
       <main className="container mx-auto px-4 py-12">
         <section className="mb-20">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="space-y-6">
-              <h1 className="text-4xl md:text-5xl font-bold leading-tight text-gray-900">
+              <h1 className="text-4xl font-bold leading-tight text-gray-900 md:text-5xl">
                 Singapore's Intelligent <span className="text-green-600">Renovation Guide</span>
               </h1>
-              <p className="text-gray-600 text-lg md:text-xl">
-                Navigate your BTO renovation journey with confidence. Get expert guidance, cost breakdowns, and instant answers to your renovation questions.
+              <p className="text-lg text-gray-600 md:text-xl">
+                Navigate your BTO renovation journey with confidence. Get expert guidance, cost
+                breakdowns, and instant answers to your renovation questions.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button className="bg-green-600 hover:bg-green-700 text-white">
+              <div className="flex flex-col gap-4 sm:flex-row">
+                <Button className="bg-green-600 text-white hover:bg-green-700">
                   <Link href="/guides/ultimate-hdb-bto-guide">Start BTO Guide</Link>
                 </Button>
                 <Button variant="outline" className="border-gray-300 hover:bg-gray-50">
@@ -74,7 +95,7 @@ export default function HomePage() {
                 </span>
               </div>
             </div>
-            <div className="relative h-[400px] rounded-xl overflow-hidden border border-gray-200 shadow-lg">
+            <div className="relative h-[400px] overflow-hidden rounded-xl border border-gray-200 shadow-lg">
               <Image
                 src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=1200&h=800&auto=format&fit=crop"
                 alt="Modern HDB BTO interior design"
@@ -87,14 +108,14 @@ export default function HomePage() {
         </section>
 
         <section className="mb-20">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl font-bold mb-4">Your Complete Renovation Toolkit</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
+          <div className="mb-10 text-center">
+            <h2 className="mb-4 text-3xl font-bold">Your Complete Renovation Toolkit</h2>
+            <p className="mx-auto max-w-2xl text-gray-600">
               Everything you need to plan, budget, and execute your Singapore home renovation
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid gap-6 md:grid-cols-3">
             <FeatureCard
               title="Comprehensive Guides"
               description="In-depth guides covering every aspect of BTO, HDB, and condo renovations"
@@ -103,7 +124,7 @@ export default function HomePage() {
               items={[
                 "Ultimate BTO Renovation Guide",
                 "HDB Permit Requirements",
-                "Contractor Management"
+                "Contractor Management",
               ]}
             />
             <FeatureCard
@@ -111,29 +132,21 @@ export default function HomePage() {
               description="Practical calculators and planners designed for Singapore homeowners"
               icon={<Calculator className="h-6 w-6" />}
               link="/tools"
-              items={[
-                "BTO Budget Calculator",
-                "HDB Permit Checker",
-                "Timeline Planner"
-              ]}
+              items={["BTO Budget Calculator", "HDB Permit Checker", "Timeline Planner"]}
             />
             <FeatureCard
               title="AI Assistant"
               description="Get instant answers to your renovation questions, 24/7"
               icon={<MessageSquare className="h-6 w-6" />}
               link="/ask-renoai"
-              items={[
-                "HDB regulations",
-                "Cost comparisons",
-                "Material advice"
-              ]}
+              items={["HDB regulations", "Cost comparisons", "Material advice"]}
             />
           </div>
         </section>
 
         <section className="mb-20">
-          <h2 className="text-2xl font-bold mb-8">Popular Guides</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <h2 className="mb-8 text-2xl font-bold">Popular Guides</h2>
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <GuideCard
               title="Complete 4-Room BTO Renovation Cost Breakdown"
               description="Line-by-line breakdown of actual renovation costs for a typical 4-room BTO flat, including hidden costs."
@@ -180,24 +193,25 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section className="mb-20 bg-gray-50 rounded-xl p-8">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
+        <section className="mb-20 rounded-xl bg-gray-50 p-8">
+          <div className="grid items-center gap-8 md:grid-cols-2">
             <div>
-              <h2 className="text-2xl font-bold mb-4">Ask RenoAI Anything</h2>
-              <p className="text-gray-600 mb-6">
-                Our AI assistant is trained on Singapore renovation regulations, costs, and best practices. Get instant, accurate answers 24/7.
+              <h2 className="mb-4 text-2xl font-bold">Ask RenoAI Anything</h2>
+              <p className="mb-6 text-gray-600">
+                Our AI assistant is trained on Singapore renovation regulations, costs, and best
+                practices. Get instant, accurate answers 24/7.
               </p>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
-                  <CheckCircle className="h-5 w-5 text-green-600 mt-0.5" />
+                  <CheckCircle className="mt-0.5 h-5 w-5 text-green-600" />
                   <span className="text-sm">Updated with latest HDB & BCA regulations</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <CheckCircle className="h-5 w-5 text-green-600 mt-0.5" />
+                  <CheckCircle className="mt-0.5 h-5 w-5 text-green-600" />
                   <span className="text-sm">Knows actual Singapore market prices</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <CheckCircle className="h-5 w-5 text-green-600 mt-0.5" />
+                  <CheckCircle className="mt-0.5 h-5 w-5 text-green-600" />
                   <span className="text-sm">Provides specific, actionable advice</span>
                 </div>
               </div>
@@ -205,15 +219,21 @@ export default function HomePage() {
                 <Link href="/ask-renoai">Try RenoAI Free</Link>
               </Button>
             </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
+            <div className="rounded-lg bg-white p-6 shadow-sm">
               <div className="space-y-4">
-                <div className="bg-gray-100 rounded-lg p-3">
+                <div className="rounded-lg bg-gray-100 p-3">
                   <p className="text-sm font-medium">You:</p>
-                  <p className="text-sm mt-1">Can I hack the wall between my kitchen and living room?</p>
+                  <p className="mt-1 text-sm">
+                    Can I hack the wall between my kitchen and living room?
+                  </p>
                 </div>
-                <div className="bg-green-50 rounded-lg p-3">
+                <div className="rounded-lg bg-green-50 p-3">
                   <p className="text-sm font-medium text-green-600">RenoAI:</p>
-                  <p className="text-sm mt-1">For BTO flats, you can hack non-structural partition walls between the kitchen and living room, but you'll need an HDB permit (takes 3 days, costs $30). The wall must not be marked as structural in your floor plan...</p>
+                  <p className="mt-1 text-sm">
+                    For BTO flats, you can hack non-structural partition walls between the kitchen
+                    and living room, but you'll need an HDB permit (takes 3 days, costs $30). The
+                    wall must not be marked as structural in your floor plan...
+                  </p>
                 </div>
               </div>
             </div>
@@ -221,8 +241,8 @@ export default function HomePage() {
         </section>
 
         <section className="mb-20">
-          <h2 className="text-2xl font-bold mb-8">Quick Answers</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <h2 className="mb-8 text-2xl font-bold">Quick Answers</h2>
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
             <QuickAnswerCard
               question="Can I paint during defect period?"
               answer="Yes, but only after defect inspection"
@@ -246,12 +266,13 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section ref={newsletterRef} id="newsletter" className="bg-green-50 rounded-xl p-8 mb-20">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
+        <section ref={newsletterRef} id="newsletter" className="mb-20 rounded-xl bg-green-50 p-8">
+          <div className="grid items-center gap-8 md:grid-cols-2">
             <div className="space-y-4">
               <h2 className="text-2xl font-bold">Get Renovation Tips & Updates</h2>
               <p className="text-gray-600">
-                Join thousands of Singapore homeowners getting weekly renovation tips, cost updates, and regulation changes.
+                Join thousands of Singapore homeowners getting weekly renovation tips, cost updates,
+                and regulation changes.
               </p>
             </div>
             <form onSubmit={handleSubscribe} className="flex gap-2">
@@ -265,7 +286,7 @@ export default function HomePage() {
               />
               <Button
                 type="submit"
-                className="bg-green-600 hover:bg-green-700 whitespace-nowrap"
+                className="whitespace-nowrap bg-green-600 hover:bg-green-700"
                 disabled={isSubmitting}
               >
                 {isSubmitting ? "Subscribing..." : "Subscribe"}
@@ -275,47 +296,101 @@ export default function HomePage() {
         </section>
       </main>
 
-      <footer className="border-t border-gray-200 py-12 bg-gray-50">
+      <footer className="border-t border-gray-200 bg-gray-50 py-12">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid gap-8 md:grid-cols-4">
             <div className="space-y-4">
               <Link href="/" className="text-xl font-bold">
                 Reno<span className="text-green-600">Take</span>
               </Link>
-              <p className="text-gray-600 text-sm">
+              <p className="text-sm text-gray-600">
                 Singapore's trusted renovation guide for BTO owners and homeowners.
               </p>
             </div>
             <div>
-              <h3 className="font-medium mb-4">Guides</h3>
+              <h3 className="mb-4 font-medium">Guides</h3>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li><Link href="/guides/ultimate-hdb-bto-guide" className="hover:text-gray-900">BTO Renovation Guide</Link></li>
-                <li><Link href="/guides/singapore-renovation-budgeting" className="hover:text-gray-900">Budgeting Bible</Link></li>
-                <li><Link href="/guides/contractor-management-guide" className="hover:text-gray-900">Contractor Guide</Link></li>
-                <li><Link href="/guides/hdb-permits" className="hover:text-gray-900">HDB Permits</Link></li>
+                <li>
+                  <Link href="/guides/ultimate-hdb-bto-guide" className="hover:text-gray-900">
+                    BTO Renovation Guide
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/guides/singapore-renovation-budgeting"
+                    className="hover:text-gray-900"
+                  >
+                    Budgeting Bible
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/guides/contractor-management-guide" className="hover:text-gray-900">
+                    Contractor Guide
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/guides/hdb-permits" className="hover:text-gray-900">
+                    HDB Permits
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
-              <h3 className="font-medium mb-4">Tools</h3>
+              <h3 className="mb-4 font-medium">Tools</h3>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li><Link href="/tools/bto-budget-calculator" className="hover:text-gray-900">Budget Calculator</Link></li>
-                <li><Link href="/tools/hdb-permit-checker" className="hover:text-gray-900">Permit Checker</Link></li>
-                <li><Link href="/tools/timeline-planner" className="hover:text-gray-900">Timeline Planner</Link></li>
-                <li><Link href="/ask-renoai" className="hover:text-gray-900">Ask RenoAI</Link></li>
+                <li>
+                  <Link href="/tools/bto-budget-calculator" className="hover:text-gray-900">
+                    Budget Calculator
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/tools/hdb-permit-checker" className="hover:text-gray-900">
+                    Permit Checker
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/tools/timeline-planner" className="hover:text-gray-900">
+                    Timeline Planner
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/ask-renoai" className="hover:text-gray-900">
+                    Ask RenoAI
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
-              <h3 className="font-medium mb-4">Resources</h3>
+              <h3 className="mb-4 font-medium">Resources</h3>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li><Link href="/answers" className="hover:text-gray-900">Quick Answers</Link></li>
-                <li><Link href="/about" className="hover:text-gray-900">About Us</Link></li>
-                <li><Link href="/contact" className="hover:text-gray-900">Contact</Link></li>
-                <li><Link href="/privacy" className="hover:text-gray-900">Privacy Policy</Link></li>
+                <li>
+                  <Link href="/answers" className="hover:text-gray-900">
+                    Quick Answers
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/about" className="hover:text-gray-900">
+                    About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/contact" className="hover:text-gray-900">
+                    Contact
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/privacy" className="hover:text-gray-900">
+                    Privacy Policy
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
-          <div className="border-t border-gray-300 mt-12 pt-6 text-sm text-gray-600">
-            <p>© {new Date().getFullYear()} RenoTake. All rights reserved. Not affiliated with HDB or BCA.</p>
+          <div className="mt-12 border-t border-gray-300 pt-6 text-sm text-gray-600">
+            <p>
+              © {new Date().getFullYear()} RenoTake. All rights reserved. Not affiliated with HDB
+              or BCA.
+            </p>
           </div>
         </div>
       </footer>
@@ -323,11 +398,19 @@ export default function HomePage() {
   )
 }
 
-function FeatureCard({ title, description, icon, link, items }) {
+interface FeatureCardProps {
+  title: string
+  description: string
+  icon: React.ReactNode
+  link: string
+  items: string[]
+}
+
+function FeatureCard({ title, description, icon, link, items }: FeatureCardProps) {
   return (
-    <Card className="hover:shadow-lg transition-shadow">
+    <Card className="transition-shadow hover:shadow-lg">
       <CardHeader>
-        <div className="text-green-600 mb-3">{icon}</div>
+        <div className="mb-3 text-green-600">{icon}</div>
         <CardTitle className="text-xl">{title}</CardTitle>
         <CardDescription>{description}</CardDescription>
       </CardHeader>
@@ -342,7 +425,7 @@ function FeatureCard({ title, description, icon, link, items }) {
         </ul>
       </CardContent>
       <CardFooter>
-        <Link href={link} className="text-green-600 hover:text-green-700 text-sm font-medium">
+        <Link href={link} className="text-sm font-medium text-green-600 hover:text-green-700">
           Learn more →
         </Link>
       </CardFooter>
@@ -350,25 +433,34 @@ function FeatureCard({ title, description, icon, link, items }) {
   )
 }
 
-function GuideCard({ title, description, category, readTime, link, badge = "" }) {
+interface GuideCardProps {
+  title: string
+  description: string
+  category: string
+  readTime: string
+  link: string
+  badge?: string
+}
+
+function GuideCard({ title, description, category, readTime, link, badge = "" }: GuideCardProps) {
   return (
     <Link href={link} className="group">
-      <Card className="h-full hover:shadow-lg transition-shadow">
+      <Card className="h-full transition-shadow hover:shadow-lg">
         <CardHeader>
-          <div className="flex items-center justify-between mb-2">
+          <div className="mb-2 flex items-center justify-between">
             <span className="text-xs font-medium text-green-600">{category}</span>
             {badge && (
-              <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded-full">
+              <span className="rounded-full bg-green-100 px-2 py-1 text-xs text-green-700">
                 {badge}
               </span>
             )}
           </div>
-          <CardTitle className="text-lg group-hover:text-green-600 transition-colors">
+          <CardTitle className="text-lg transition-colors group-hover:text-green-600">
             {title}
           </CardTitle>
         </CardHeader>
         <CardContent>
-          <p className="text-gray-600 text-sm">{description}</p>
+          <p className="text-sm text-gray-600">{description}</p>
         </CardContent>
         <CardFooter>
           <div className="flex items-center gap-1 text-xs text-gray-500">
@@ -381,12 +473,18 @@ function GuideCard({ title, description, category, readTime, link, badge = "" })
   )
 }
 
-function QuickAnswerCard({ question, answer, link }) {
+interface QuickAnswerCardProps {
+  question: string
+  answer: string
+  link: string
+}
+
+function QuickAnswerCard({ question, answer, link }: QuickAnswerCardProps) {
   return (
     <Link href={link} className="group">
-      <div className="bg-white p-4 rounded-lg border border-gray-200 hover:border-green-500 transition-colors">
-        <HelpCircle className="h-4 w-4 text-green-600 mb-2" />
-        <p className="font-medium text-sm mb-1 group-hover:text-green-600">{question}</p>
+      <div className="rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-green-500">
+        <HelpCircle className="mb-2 h-4 w-4 text-green-600" />
+        <p className="mb-1 text-sm font-medium group-hover:text-green-600">{question}</p>
         <p className="text-xs text-gray-600">{answer}</p>
       </div>
     </Link>

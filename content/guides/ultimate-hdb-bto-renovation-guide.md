@@ -1,6 +1,6 @@
 # The Ultimate HDB BTO Renovation Guide: From Keys to Dream Home
 
-*Your complete roadmap to renovating your BTO flat in Singapore - with real costs, timelines, and insider tips*
+_Your complete roadmap to renovating your BTO flat in Singapore - with real costs, timelines, and insider tips_
 
 ---
 
@@ -34,6 +34,7 @@ This guide isn't another generic "Top 10 Tips" article. It's a comprehensive pla
 Unlike resale flats, your BTO comes as a blank canvas - literally bare concrete walls, floors, and ceilings. This means:
 
 **The Good:**
+
 - No need to hack existing renovations
 - Lower demolition costs
 - Fresh start with modern layouts
@@ -41,6 +42,7 @@ Unlike resale flats, your BTO comes as a blank canvas - literally bare concrete 
 - Standardized dimensions make planning easier
 
 **The Challenging:**
+
 - Everything needs to be done from scratch
 - Higher initial costs for basics (flooring, ceiling, etc.)
 - Coordinating multiple contractors simultaneously
@@ -52,26 +54,30 @@ Unlike resale flats, your BTO comes as a blank canvas - literally bare concrete 
 Let's address the elephant in the room - money. Based on 2024-2025 data from actual Singapore BTO owners:
 
 **2-Room Flexi (36-45 sqm)**
+
 - Basic: S$15,000 - S$25,000
 - Standard: S$25,000 - S$35,000
 - Premium: S$35,000 - S$50,000
 
 **3-Room (60-65 sqm)**
+
 - Basic: S$20,000 - S$30,000
 - Standard: S$30,000 - S$45,000
 - Premium: S$45,000 - S$65,000
 
 **4-Room (85-90 sqm)**
+
 - Basic: S$30,000 - S$40,000
 - Standard: S$40,000 - S$60,000
 - Premium: S$60,000 - S$85,000
 
 **5-Room/Executive (110-130 sqm)**
+
 - Basic: S$40,000 - S$55,000
 - Standard: S$55,000 - S$75,000
 - Premium: S$75,000 - S$100,000+
 
-*Note: "Basic" means essential work only, "Standard" includes some aesthetic upgrades, "Premium" involves designer materials and custom carpentry.*
+_Note: "Basic" means essential work only, "Standard" includes some aesthetic upgrades, "Premium" involves designer materials and custom carpentry._
 
 ---
 
@@ -84,36 +90,42 @@ Most BTO owners make a critical mistake - they only start planning after collect
 ### The 6-Month Countdown Timeline
 
 **6 Months Before Keys:**
+
 - Start collecting inspiration (Pinterest, Instagram, Qanvast)
 - Set preliminary budget (use our calculator)
 - Research renovation styles that suit your lifestyle
 - Join BTO renovation groups for your specific project
 
 **5 Months Before Keys:**
+
 - Define must-haves vs nice-to-haves
 - Start researching contractors and IDs
 - Attend home improvement exhibitions (MegaHome, HomeDec)
 - Create a renovation folder (digital or physical)
 
 **4 Months Before Keys:**
+
 - Shortlist 5-8 contractors/IDs
 - Schedule preliminary meetings
 - Get rough quotations based on floor plans
 - Research material options and costs
 
 **3 Months Before Keys:**
+
 - Narrow down to 3 contractors/IDs
 - Request detailed quotations
 - Visit their previous projects if possible
 - Check reviews and credentials
 
 **2 Months Before Keys:**
+
 - Make final contractor selection
 - Negotiate terms and pricing
 - Review and understand contract thoroughly
 - Secure renovation loan if needed
 
 **1 Month Before Keys:**
+
 - Finalize design details
 - Confirm material selections
 - Schedule renovation start date
@@ -122,6 +134,7 @@ Most BTO owners make a critical mistake - they only start planning after collect
 ### Essential Pre-Planning Decisions
 
 **Lifestyle Audit Questions:**
+
 1. How often do you cook? (Determines kitchen investment)
 2. Work from home? (Need dedicated workspace?)
 3. Planning for kids? (Safety features, future room conversions)
@@ -157,6 +170,7 @@ For a typical S$50,000 budget, here's the optimal allocation based on 500+ BTO r
 ### The Contractor vs Interior Designer Decision
 
 **Choose a Direct Contractor if:**
+
 - Budget under S$40,000
 - Clear vision of what you want
 - Comfortable managing multiple vendors
@@ -164,6 +178,7 @@ For a typical S$50,000 budget, here's the optimal allocation based on 500+ BTO r
 - Prioritizing cost savings (20-30% cheaper)
 
 **Choose an Interior Designer if:**
+
 - Budget above S$50,000
 - Want professional design expertise
 - Prefer single point of contact
@@ -193,6 +208,7 @@ Some firms offer project management without design services, costing 10-15% of r
 Your key collection appointment at HDB Hub is more than just getting keys. It's your first official step into homeownership and the start of your renovation clock.
 
 **What Happens During Key Collection:**
+
 1. Identity verification and document signing
 2. Collection of keys and access cards
 3. Briefing on defects liability period
@@ -200,6 +216,7 @@ Your key collection appointment at HDB Hub is more than just getting keys. It's 
 5. Important documents handover
 
 **Essential Items to Bring:**
+
 - Identity cards (all owners)
 - Marriage certificate (if applicable)
 - HDB appointment letter
@@ -265,6 +282,7 @@ Within 7 days of key collection, conduct a thorough inspection. This isn't just 
 HDB provides a 12-month defects liability period (DLP) for new flats. Here's what's covered and what's not:
 
 **Covered Defects:**
+
 - Ceiling cracks and spalling concrete
 - Water seepage (not due to renovation)
 - Defective doors and windows
@@ -273,6 +291,7 @@ HDB provides a 12-month defects liability period (DLP) for new flats. Here's wha
 - Paint defects on pre-painted areas
 
 **Not Covered:**
+
 - Damage from renovation works
 - Normal wear and tear
 - Modifications you make
@@ -325,18 +344,21 @@ The design phase determines 80% of your renovation outcome. Get this right, and 
 
 **Living Room (Average: S$8,000-15,000)**
 
-*Layout Options:*
+_Layout Options:_
+
 - Traditional: Sofa facing TV console
 - Open concept: Merged with dining
 - Multi-functional: Hidden storage systems
 
-*Key Decisions:*
+_Key Decisions:_
+
 - TV wall: Feature wall (S$800-2,500) vs plain
 - Ceiling: False ceiling (S$1,800-3,000) vs cornice
 - Flooring continuation or separation
 - Built-in vs loose furniture
 
-*Cost Breakdown:*
+_Cost Breakdown:_
+
 - Vinyl/Laminate flooring: S$4-8/sqft
 - False ceiling with lights: S$25-40/sqft
 - Feature wall: S$30-50/sqft
@@ -345,19 +367,22 @@ The design phase determines 80% of your renovation outcome. Get this right, and 
 
 **Kitchen (Average: S$8,000-18,000)**
 
-*Layout Types for BTO:*
+_Layout Types for BTO:_
+
 - Galley (most 2-3 room)
 - L-shaped (most 4-room)
 - U-shaped (5-room/executive)
 - Island (rare, needs space)
 
-*Critical Decisions:*
+_Critical Decisions:_
+
 - Open vs closed concept
 - Hood and hob type (affects ceiling design)
 - Sink position (window or island)
 - Storage optimization strategy
 
-*Material Choices & Costs:*
+_Material Choices & Costs:_
+
 - Countertop:
   - Quartz: S$80-150/ft run
   - Solid surface: S$100-180/ft run
@@ -376,20 +401,23 @@ The design phase determines 80% of your renovation outcome. Get this right, and 
 
 **Master Bedroom (Average: S$5,000-10,000)**
 
-*Space Optimization:*
+_Space Optimization:_
+
 - Platform bed with storage: S$1,500-3,000
 - Wardrobe placement (which wall?)
 - Study corner integration
 - Bay window usage (if applicable)
 
-*Wardrobe Decisions:*
+_Wardrobe Decisions:_
+
 - Built-in: S$300-500/ft run
 - Semi-built: S$250-400/ft run
 - Loose furniture: S$800-2,000 total
 
 **Common Bedroom (Average: S$3,000-6,000)**
 
-*Flexible Designs:*
+_Flexible Designs:_
+
 - Convertible study/guest room
 - Children's room with growth adaptability
 - Work-from-home office
@@ -397,14 +425,16 @@ The design phase determines 80% of your renovation outcome. Get this right, and 
 
 **Bathrooms (Average: S$3,000-8,000 each)**
 
-*Upgrade Priorities:*
+_Upgrade Priorities:_
+
 - Shower screen: S$500-1,200
 - Rain shower: S$200-800
 - Storage solutions: S$300-800
 - Toilet bowl upgrade: S$300-800
 - Heater installation: S$250-450
 
-*Tile Selection:*
+_Tile Selection:_
+
 - Floor tiles: S$3-8/sqft
 - Wall tiles: S$2.50-6/sqft
 - Homogeneous tiles: S$4-10/sqft
@@ -413,12 +443,14 @@ The design phase determines 80% of your renovation outcome. Get this right, and 
 ### The HDB Hacking Guide
 
 **What You CAN Hack:**
+
 - Non-structural partition walls
 - Kitchen entrance wall (usually)
 - Storeroom walls (check plan)
 - Some bedroom walls (verify first)
 
 **What You CANNOT Hack:**
+
 - Structural walls (marked thick on plan)
 - Bomb shelter walls
 - Walls with embedded columns
@@ -426,6 +458,7 @@ The design phase determines 80% of your renovation outcome. Get this right, and 
 - Walls adjoining neighbors
 
 **Hacking Costs & Considerations:**
+
 - Hacking: S$500-1,500 per wall
 - Disposal: S$300-500 per ton
 - New wall construction: S$80-150/sqm
@@ -436,14 +469,14 @@ The design phase determines 80% of your renovation outcome. Get this right, and 
 
 **Built-In Storage ROI Analysis:**
 
-| Storage Type | Cost | Space Saved | ROI Rating |
-|-------------|------|-------------|------------|
-| TV Console with storage | S$2,000-3,500 | 2-3 sqm | ★★★★★ |
-| Platform bed storage | S$1,500-2,500 | 1-2 sqm | ★★★★★ |
-| Kitchen tall units | S$800-1,500 | 0.5-1 sqm | ★★★★☆ |
-| Bay window storage | S$600-1,200 | 0.5 sqm | ★★★★☆ |
-| False ceiling storage | S$50-80/sqft | Vertical | ★★★☆☆ |
-| Bathroom vanity | S$400-800 | 0.3 sqm | ★★★★☆ |
+| Storage Type            | Cost          | Space Saved | ROI Rating |
+| ----------------------- | ------------- | ----------- | ---------- |
+| TV Console with storage | S$2,000-3,500 | 2-3 sqm     | ★★★★★      |
+| Platform bed storage    | S$1,500-2,500 | 1-2 sqm     | ★★★★★      |
+| Kitchen tall units      | S$800-1,500   | 0.5-1 sqm   | ★★★★☆      |
+| Bay window storage      | S$600-1,200   | 0.5 sqm     | ★★★★☆      |
+| False ceiling storage   | S$50-80/sqft  | Vertical    | ★★★☆☆      |
+| Bathroom vanity         | S$400-800     | 0.3 sqm     | ★★★★☆      |
 
 ### Design Mistakes That Cost Thousands
 
@@ -478,6 +511,7 @@ Finding the right contractor is like dating - you need chemistry, trust, and ali
 ### Types of Contractors in Singapore
 
 **Main Contractor (ID Firm)**
+
 - Single point of contact
 - Handles all coordination
 - Provides design services
@@ -485,6 +519,7 @@ Finding the right contractor is like dating - you need chemistry, trust, and ali
 - Best for: First-timers, busy professionals
 
 **Direct Contractors**
+
 - Specialist in specific trades
 - You coordinate between them
 - More control over costs
@@ -492,6 +527,7 @@ Finding the right contractor is like dating - you need chemistry, trust, and ali
 - Best for: Experienced renovators, tight budgets
 
 **Project Management Firms**
+
 - Coordination without design
 - Multiple contractor management
 - Cost: 10-15% management fee
@@ -500,30 +536,35 @@ Finding the right contractor is like dating - you need chemistry, trust, and ali
 ### The 5-Step Vetting Process
 
 **Step 1: Initial Screening (Cast Wide Net)**
+
 - Get 8-10 initial quotes
 - Use: Qanvast, RenoGuru, Facebook groups
 - Ask for portfolio relevant to BTO
 - Check company registration (ACRA)
 
 **Step 2: Detailed Evaluation (Narrow to 5)**
+
 - Review past projects similar to yours
 - Check online reviews (Google, Facebook)
 - Verify HDB Licensed Renovator status
 - Ask for references from recent clients
 
 **Step 3: Face-to-Face Meetings (Top 3)**
+
 - Meet at their office/showroom
 - Bring your floor plan and inspiration photos
 - Discuss timeline and payment terms
 - Gauge communication style
 
 **Step 4: Site Visits (If Possible)**
+
 - Visit ongoing projects
 - Check workmanship quality
 - Observe site management
 - Talk to current clients
 
 **Step 5: Final Decision**
+
 - Compare detailed quotations
 - Negotiate terms
 - Check contract details
@@ -532,6 +573,7 @@ Finding the right contractor is like dating - you need chemistry, trust, and ali
 ### Decoding Renovation Quotations
 
 **Red Flags in Quotations:**
+
 - Lump sum pricing without breakdown
 - "Subject to site conditions" everywhere
 - No brand specifications
@@ -582,12 +624,14 @@ WARRANTY: 1 year for workmanship
 ### Price Benchmarks (2024-2025 Market Rates)
 
 **Masonry Works:**
+
 - Hacking: S$500-1,500/wall
 - Partition wall: S$80-150/sqm
 - Plastering: S$15-25/sqm
 - Waterproofing: S$30-50/sqm
 
 **Carpentry:**
+
 - Kitchen cabinets: S$180-350/ft run
 - Wardrobe: S$300-500/ft run
 - TV console: S$200-400/ft run
@@ -595,6 +639,7 @@ WARRANTY: 1 year for workmanship
 - Shoe cabinet: S$180-350/ft run
 
 **Electrical:**
+
 - Light point: S$60-90
 - Power point: S$70-100
 - Data point: S$80-120
@@ -602,6 +647,7 @@ WARRANTY: 1 year for workmanship
 - Ceiling fan point: S$120-180
 
 **Plumbing:**
+
 - Water piping (per point): S$100-150
 - Sink installation: S$150-250
 - Toilet bowl replacement: S$200-350
@@ -610,6 +656,7 @@ WARRANTY: 1 year for workmanship
 ### Contract Negotiation Strategies
 
 **What's Negotiable:**
+
 - Payment terms (try for more backend)
 - Timeline buffer
 - Material upgrades at same price
@@ -617,12 +664,14 @@ WARRANTY: 1 year for workmanship
 - Warranty period extension
 
 **What's Usually Fixed:**
+
 - Labor costs
 - Disposal fees
 - HDB permit fees
 - Basic material costs
 
 **Power Negotiation Tactics:**
+
 1. Get quotes during off-peak (Oct-Nov, Feb-Mar)
 2. Bundle more work for better rates
 3. Offer good payment terms for discount
@@ -674,6 +723,7 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 ### Permits Required vs Not Required
 
 **Permit REQUIRED (Apply via HDB InfoWEB):**
+
 - Hacking of walls (any wall)
 - Relocation of toilets/kitchens
 - Installation of bay windows
@@ -682,6 +732,7 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 - Full bathroom overlay
 
 **Permit NOT Required (But Must Follow Guidelines):**
+
 - Painting
 - Basic flooring installation
 - Carpentry works
@@ -722,12 +773,14 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 **STRUCTURAL WORKS**
 
 ✅ **CAN DO:**
+
 - Remove non-structural walls (check plan)
 - Install false ceiling (maintain 2.4m height)
 - Overlay flooring up to 50mm thick
 - Install partition walls (with permit)
 
 ❌ **CANNOT DO:**
+
 - Hack structural walls/columns
 - Alter bomb shelter in any way
 - Exceed floor loading (150kg/sqm)
@@ -737,12 +790,14 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 **WINDOWS & FACADES**
 
 ✅ **CAN DO:**
+
 - Install invisible grilles
 - Add window films (non-reflective)
 - Install bay windows (approved designs)
 - Change window handles/locks
 
 ❌ **CANNOT DO:**
+
 - Change window frame color
 - Install external awnings
 - Add protruding grilles
@@ -752,12 +807,14 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 **WATERPROOFING & WET AREAS**
 
 ✅ **CAN DO:**
+
 - Waterproof bathroom floors
 - Install bathroom accessories
 - Change sanitary fittings
 - Add bathroom storage
 
 ❌ **CANNOT DO:**
+
 - Relocate bathrooms (without approval)
 - Remove original floor traps
 - Compromise waterproofing membrane
@@ -766,12 +823,14 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 **ELECTRICAL WORKS**
 
 ✅ **CAN DO:**
+
 - Add power points (via licensed electrician)
 - Install ceiling fans
 - Upgrade DB box
 - Add dedicated aircon isolators
 
 ❌ **CANNOT DO:**
+
 - Exceed 40amp loading (whole unit)
 - Bypass safety devices
 - DIY electrical DB work
@@ -782,24 +841,28 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 **For BTO Flats:**
 
 **Living Room:**
+
 - Can install up to 2 condensers
 - Use designated aircon ledge only
 - Maintain 100mm gap from ceiling
 - Proper bracket installation mandatory
 
 **Bedrooms:**
+
 - Maximum 1 condenser per room
 - Cannot exceed ledge capacity
 - Proper drainage required
 - Noise level compliance
 
 **Installation Requirements:**
+
 - BCA-approved installer
 - Proper insulation for piping
 - Bracket load test certificate
 - Chemical wash drainage provision
 
 **Cost Breakdown:**
+
 - System 3 (basic): S$2,400-3,200
 - System 4 (basic): S$3,000-4,000
 - Installation: S$250-400 per unit
@@ -807,27 +870,30 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 
 ### Penalties for Non-Compliance
 
-| Violation | First Offense | Repeat Offense |
-|-----------|--------------|----------------|
-| No permit for required works | Warning + Stop Work | S$500-1,000 fine |
+| Violation                       | First Offense            | Repeat Offense     |
+| ------------------------------- | ------------------------ | ------------------ |
+| No permit for required works    | Warning + Stop Work      | S$500-1,000 fine   |
 | Unauthorized structural changes | S$500 fine + Restoration | S$1,000-5,000 fine |
-| Illegal window works | S$200 fine + Removal | S$500-1,000 fine |
-| Flouting work hours | Warning | S$300-500 fine |
-| Damage to common property | Cost of repair | Cost + S$500 fine |
+| Illegal window works            | S$200 fine + Removal     | S$500-1,000 fine   |
+| Flouting work hours             | Warning                  | S$300-500 fine     |
+| Damage to common property       | Cost of repair           | Cost + S$500 fine  |
 
 ### Working Hours & Noise Management
 
 **Permitted Renovation Hours:**
+
 - Monday to Friday: 9:00 AM - 6:00 PM
 - Saturday: 9:00 AM - 1:00 PM
 - Sunday & Public Holidays: No work allowed
 
 **Noisy Works (Hacking, Drilling):**
+
 - Weekdays only: 9:00 AM - 5:00 PM
 - Not allowed on weekends
 - Maximum 3 hours continuous
 
 **Good Neighbor Practices:**
+
 - Inform neighbors 3 days before start
 - Provide contractor contact
 - Display permit and schedule
@@ -841,44 +907,50 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 ### The 8-Week Renovation Timeline
 
 **Week 1-2: Demolition & Rough Works**
+
 - Protection of floors and common areas
 - Hacking of walls
 - Debris disposal
 - Rough electrical and plumbing
-- *What to check:* Proper protection, accurate hacking
+- _What to check:_ Proper protection, accurate hacking
 
 **Week 3-4: Construction & Infrastructure**
+
 - Build new walls
 - Electrical wiring
 - Plumbing rough-in
 - Ceiling framework
-- *What to check:* Electrical point positions, pipe routing
+- _What to check:_ Electrical point positions, pipe routing
 
 **Week 5-6: Finishing Rough Works**
+
 - Plastering and skim coat
 - Waterproofing application
 - Tiling works
 - Ceiling boards installation
-- *What to check:* Surface smoothness, tile alignment
+- _What to check:_ Surface smoothness, tile alignment
 
 **Week 7: Carpentry & Final Finishes**
+
 - Carpentry installation
 - Kitchen setup
 - Painting works
 - Door installation
-- *What to check:* Alignment, gaps, paint quality
+- _What to check:_ Alignment, gaps, paint quality
 
 **Week 8: Final Installations & Touch-ups**
+
 - Electrical fixtures
 - Plumbing fixtures
 - Glass and mirrors
 - Final painting touches
 - Cleaning
-- *What to check:* Everything works, no defects
+- _What to check:_ Everything works, no defects
 
 ### Managing Your Renovation Remotely
 
 **Essential Apps & Tools:**
+
 - WhatsApp: Create renovation group
 - Google Photos: Daily progress photos
 - Zoom/Video calls: Virtual inspections
@@ -942,41 +1014,46 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 ### Dealing with Common Renovation Issues
 
 **Issue 1: Timeline Delays**
-- *Cause:* Material shortage, weather, manpower
-- *Solution:* Build 2-week buffer, penalty clauses
-- *Prevention:* Order materials early, avoid peak periods
+
+- _Cause:_ Material shortage, weather, manpower
+- _Solution:_ Build 2-week buffer, penalty clauses
+- _Prevention:_ Order materials early, avoid peak periods
 
 **Issue 2: Budget Overruns**
-- *Cause:* Scope creep, hidden conditions, upgrades
-- *Solution:* 10-15% contingency fund
-- *Prevention:* Detailed quotation, resist changes
+
+- _Cause:_ Scope creep, hidden conditions, upgrades
+- _Solution:_ 10-15% contingency fund
+- _Prevention:_ Detailed quotation, resist changes
 
 **Issue 3: Quality Issues**
-- *Cause:* Rushing, poor supervision, cheap materials
-- *Solution:* Document defects, withhold payment
-- *Prevention:* Regular inspections, clear specifications
+
+- _Cause:_ Rushing, poor supervision, cheap materials
+- _Solution:_ Document defects, withhold payment
+- _Prevention:_ Regular inspections, clear specifications
 
 **Issue 4: Neighbor Complaints**
-- *Cause:* Noise, debris, damage
-- *Solution:* Immediate response, contractor liability
-- *Prevention:* Proper notice, strict hours, daily cleanup
+
+- _Cause:_ Noise, debris, damage
+- _Solution:_ Immediate response, contractor liability
+- _Prevention:_ Proper notice, strict hours, daily cleanup
 
 ### Material Delivery Coordination
 
 **Typical Delivery Schedule:**
 
-| Week | Materials | Storage Location | Notes |
-|------|-----------|-----------------|-------|
-| 1 | Protection materials | Living room | First in |
-| 2 | Cement, sand | Service yard | For masonry |
-| 3 | Tiles | Bedroom | Stack properly |
-| 4 | Electrical/Plumbing | Store room | Secure items |
-| 5 | Doors | Against walls | Protect from damage |
-| 6 | Carpentry | Progressive | Install immediately |
-| 7 | Paint | Service yard | Check colors |
-| 8 | Fixtures | Respective rooms | Final installations |
+| Week | Materials            | Storage Location | Notes               |
+| ---- | -------------------- | ---------------- | ------------------- |
+| 1    | Protection materials | Living room      | First in            |
+| 2    | Cement, sand         | Service yard     | For masonry         |
+| 3    | Tiles                | Bedroom          | Stack properly      |
+| 4    | Electrical/Plumbing  | Store room       | Secure items        |
+| 5    | Doors                | Against walls    | Protect from damage |
+| 6    | Carpentry            | Progressive      | Install immediately |
+| 7    | Paint                | Service yard     | Check colors        |
+| 8    | Fixtures             | Respective rooms | Final installations |
 
 **Storage Tips:**
+
 - Designate one room for materials
 - Ensure proper ventilation
 - Protect from moisture
@@ -1043,6 +1120,7 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 ### The Defects List Process
 
 **Documenting Defects:**
+
 1. Use blue tape to mark issues
 2. Number each defect
 3. Take photos with measurements
@@ -1051,6 +1129,7 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 6. Set rectification timeline
 
 **Common Defects to Look For:**
+
 - Paint drips or uneven coverage
 - Scratches on new surfaces
 - Gaps in carpentry
@@ -1061,6 +1140,7 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 - Missing accessories
 
 **Rectification Timeline:**
+
 - Minor defects: 3-5 days
 - Major issues: 7-14 days
 - Structural problems: Immediate
@@ -1068,6 +1148,7 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 ### Final Payment & Documentation
 
 **Before Final Payment:**
+
 1. All defects rectified
 2. Site thoroughly cleaned
 3. All keys handed over
@@ -1075,6 +1156,7 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 5. As-built drawings provided
 
 **Important Documents to Collect:**
+
 - Warranty cards for all items
 - Electrical certificate (if applicable)
 - Waterproofing warranty
@@ -1089,6 +1171,7 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 ### Living with Fresh Renovation
 
 **First Month Settling:**
+
 - Run exhaust fans frequently (paint fumes)
 - Check for paint touch-ups needed
 - Monitor for water leaks
@@ -1097,17 +1180,20 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 
 **The 30-60-90 Day Checks:**
 
-*30 Days:*
+_30 Days:_
+
 - Paint fully cured, check for defects
 - Carpentry doors adjusted if needed
 - Minor touch-ups completed
 
-*60 Days:*
+_60 Days:_
+
 - Check for tile popping
 - Monitor wall cracks
 - Plumbing leak check
 
-*90 Days:*
+_90 Days:_
+
 - Comprehensive defects review
 - Final warranty claims
 - Contractor final follow-up
@@ -1115,18 +1201,21 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 ### Maintenance Schedule
 
 **Monthly:**
+
 - Clean aircon filters
 - Check bathroom drains
 - Wipe down carpentry
 - Test all electrical points
 
 **Quarterly:**
+
 - Deep clean exhaust fans
 - Check silicon seals
 - Inspect tile grout
 - Service aircon units
 
 **Annually:**
+
 - Touch up paint
 - Re-seal wet areas
 - Service all appliances
@@ -1135,6 +1224,7 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 ### Warranty Claims Process
 
 **Typical Warranty Periods:**
+
 - Workmanship: 1 year
 - Waterproofing: 5 years
 - Carpentry: 1 year
@@ -1142,6 +1232,7 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 - Tiling: 6 months
 
 **Making a Claim:**
+
 1. Document issue with photos
 2. Check warranty coverage
 3. Contact contractor formally
@@ -1156,9 +1247,10 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 ### Real Case Study 1: 4-Room BTO Minimalist (S$38,000)
 
 **Project: Punggol Northshore, 95 sqm**
-*Couple, early 30s, first home*
+_Couple, early 30s, first home_
 
 **Breakdown:**
+
 - Flooring (whole house vinyl): S$4,500
 - False ceiling (living only): S$1,800
 - Painting (whole house): S$1,500
@@ -1173,9 +1265,10 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 - Bathroom accessories: S$1,200
 - Aircon (System 3): S$2,800
 - Miscellaneous: S$3,200
-**Total: S$38,000**
+  **Total: S$38,000**
 
 **Money-Saving Decisions:**
+
 - No hacking (saved S$3,000)
 - Vinyl instead of tiles (saved S$2,000)
 - Simple false ceiling (saved S$1,500)
@@ -1184,9 +1277,10 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 ### Real Case Study 2: 5-Room Modern Luxe (S$75,000)
 
 **Project: Tengah Garden, 110 sqm**
-*Family with 2 kids*
+_Family with 2 kids_
 
 **Breakdown:**
+
 - Hacking (kitchen wall): S$1,500
 - Flooring (SPC whole house): S$8,500
 - False ceiling (extensive): S$6,500
@@ -1201,9 +1295,10 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 - Smart home setup: S$3,000
 - Aircon (System 4): S$3,800
 - Miscellaneous: S$1,700
-**Total: S$75,000**
+  **Total: S$75,000**
 
 **Premium Choices:**
+
 - Open concept kitchen
 - Quartz countertops throughout
 - Smart switches
@@ -1213,9 +1308,10 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 ### Real Case Study 3: 3-Room Budget Practical (S$25,000)
 
 **Project: Woodlands BTO, 65 sqm**
-*Young couple, tight budget*
+_Young couple, tight budget_
 
 **Breakdown:**
+
 - Flooring (laminate): S$2,800
 - Ceiling (cornice only): S$800
 - Painting: S$1,200
@@ -1230,9 +1326,10 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 - Window grilles: S$1,500
 - Aircon (System 2): S$2,200
 - Buffer: S$2,000
-**Total: S$25,000**
+  **Total: S$25,000**
 
 **Budget Strategies:**
+
 - Direct contractors only
 - Standard materials
 - Minimal built-ins
@@ -1246,58 +1343,69 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 ### The Top 10 BTO Renovation Mistakes
 
 **1. Starting Without Proper Planning**
-- *Mistake:* Jump straight to contractor selection
-- *Result:* Costly changes, delays, dissatisfaction
-- *Solution:* Spend 2-3 months planning before committing
+
+- _Mistake:_ Jump straight to contractor selection
+- _Result:_ Costly changes, delays, dissatisfaction
+- _Solution:_ Spend 2-3 months planning before committing
 
 **2. Unrealistic Budget Expectations**
-- *Mistake:* Believing S$20k can do everything
-- *Result:* Compromise on quality or incomplete renovation
-- *Solution:* Research real costs, add 15% buffer
+
+- _Mistake:_ Believing S$20k can do everything
+- _Result:_ Compromise on quality or incomplete renovation
+- _Solution:_ Research real costs, add 15% buffer
 
 **3. Choosing Contractor Based on Price Alone**
-- *Mistake:* Always picking cheapest quote
-- *Result:* Poor quality, delays, additional costs
-- *Solution:* Balance price with reputation and quality
+
+- _Mistake:_ Always picking cheapest quote
+- _Result:_ Poor quality, delays, additional costs
+- _Solution:_ Balance price with reputation and quality
 
 **4. Over-Customization**
-- *Mistake:* Too many built-ins and custom features
-- *Result:* High cost, limited flexibility, affects resale
-- *Solution:* Balance built-in with loose furniture
+
+- _Mistake:_ Too many built-ins and custom features
+- _Result:_ High cost, limited flexibility, affects resale
+- _Solution:_ Balance built-in with loose furniture
 
 **5. Ignoring Practical Needs**
-- *Mistake:* All aesthetics, no function
-- *Result:* Beautiful but impractical home
-- *Solution:* List daily activities and design around them
+
+- _Mistake:_ All aesthetics, no function
+- _Result:_ Beautiful but impractical home
+- _Solution:_ List daily activities and design around them
 
 **6. Poor Electrical Planning**
-- *Mistake:* Insufficient power points
-- *Result:* Extension cords everywhere
-- *Solution:* Plan for current and future needs
+
+- _Mistake:_ Insufficient power points
+- _Result:_ Extension cords everywhere
+- _Solution:_ Plan for current and future needs
 
 **7. Wrong Material Choices**
-- *Mistake:* Choosing based on looks alone
-- *Result:* High maintenance, early replacement
-- *Solution:* Research durability and maintenance needs
+
+- _Mistake:_ Choosing based on looks alone
+- _Result:_ High maintenance, early replacement
+- _Solution:_ Research durability and maintenance needs
 
 **8. No Contingency Planning**
-- *Mistake:* Exact budget with no buffer
-- *Result:* Stress when unexpected costs arise
-- *Solution:* Keep 10-15% contingency fund
+
+- _Mistake:_ Exact budget with no buffer
+- _Result:_ Stress when unexpected costs arise
+- _Solution:_ Keep 10-15% contingency fund
 
 **9. Rushing the Timeline**
-- *Mistake:* Pushing for faster completion
-- *Result:* Compromised quality, worker stress
-- *Solution:* Allow realistic timeline with buffer
+
+- _Mistake:_ Pushing for faster completion
+- _Result:_ Compromised quality, worker stress
+- _Solution:_ Allow realistic timeline with buffer
 
 **10. Not Documenting Everything**
-- *Mistake:* Verbal agreements and changes
-- *Result:* Disputes, forgotten details
-- *Solution:* WhatsApp everything, keep records
+
+- _Mistake:_ Verbal agreements and changes
+- _Result:_ Disputes, forgotten details
+- _Solution:_ WhatsApp everything, keep records
 
 ### Contractor Red Flags
 
 **Warning Signs to Run Away:**
+
 - Demands large upfront payment (>30%)
 - No proper business registration
 - Can't provide recent references
@@ -1312,6 +1420,7 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 ### The Hidden Costs Checklist
 
 **Often Forgotten Expenses:**
+
 - Town council deposit: S$300-500
 - Renovation insurance: S$250-350
 - Additional storage rental: S$100-200/month
@@ -1361,17 +1470,20 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 ### Important Contacts
 
 **HDB Branches:**
+
 - HDB Hub: 6490 1111
 - Tampines: 6490 2222
 - Woodlands: 6490 3333
 - Jurong: 6490 4444
 
 **Emergency Services:**
+
 - Building defects: 1800-275-5555
 - Town council (varies by area)
 - CASE (disputes): 6100 0315
 
 **Useful Websites:**
+
 - HDB InfoWEB: www.hdb.gov.sg
 - BCA Directory: www.bca.gov.sg
 - CASE: www.case.org.sg
@@ -1380,6 +1492,7 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 ### Sample Documents
 
 **[Templates provided for:]**
+
 - Letter of Intent
 - Variation Order Form
 - Defects List Template
@@ -1389,6 +1502,7 @@ HDB has strict guidelines to ensure structural integrity, fire safety, and peace
 ### Renovation Timeline Template
 
 **[Interactive Gantt chart showing:]**
+
 - 8-week standard timeline
 - Dependencies between tasks
 - Critical path highlights
@@ -1429,34 +1543,34 @@ Your dream home is 8 weeks away. Let's make it happen.
 **Version:** 2.0
 **Total Word Count:** 10,500+
 
-*This guide is based on analysis of 500+ actual BTO renovations completed between 2023-2025 across Singapore. Prices and regulations are current as of publication but may change. Always verify with official sources.*
+_This guide is based on analysis of 500+ actual BTO renovations completed between 2023-2025 across Singapore. Prices and regulations are current as of publication but may change. Always verify with official sources._
 
 ---
 
 ### Quick Reference: Cost Summary Table
 
-| Item | Basic | Standard | Premium |
-|------|-------|----------|---------|
-| **Flooring (per sqft)** |
-| Laminate | S$3-4 | S$5-6 | S$7-10 |
-| Vinyl/SPC | S$4-5 | S$6-8 | S$9-12 |
-| Tiles | S$5-6 | S$8-10 | S$12-20 |
-| **Ceiling (per sqft)** |
-| False ceiling | S$20-25 | S$30-35 | S$40-60 |
-| Cornice | S$8-10/ft | S$12-15/ft | S$18-25/ft |
+| Item                       | Basic     | Standard   | Premium    |
+| -------------------------- | --------- | ---------- | ---------- |
+| **Flooring (per sqft)**    |
+| Laminate                   | S$3-4     | S$5-6      | S$7-10     |
+| Vinyl/SPC                  | S$4-5     | S$6-8      | S$9-12     |
+| Tiles                      | S$5-6     | S$8-10     | S$12-20    |
+| **Ceiling (per sqft)**     |
+| False ceiling              | S$20-25   | S$30-35    | S$40-60    |
+| Cornice                    | S$8-10/ft | S$12-15/ft | S$18-25/ft |
 | **Carpentry (per ft run)** |
-| Kitchen | S$150-200 | S$250-350 | S$400-600 |
-| Wardrobe | S$250-300 | S$350-450 | S$500-800 |
-| TV Console | S$150-200 | S$250-350 | S$400-600 |
-| **Electrical** |
-| Light point | S$60-70 | S$80-90 | S$100-150 |
-| Power point | S$70-80 | S$90-100 | S$120-180 |
-| **Doors** |
-| Bedroom | S$200-300 | S$400-600 | S$800-1500 |
-| Bathroom | S$150-250 | S$300-450 | S$600-1000 |
+| Kitchen                    | S$150-200 | S$250-350  | S$400-600  |
+| Wardrobe                   | S$250-300 | S$350-450  | S$500-800  |
+| TV Console                 | S$150-200 | S$250-350  | S$400-600  |
+| **Electrical**             |
+| Light point                | S$60-70   | S$80-90    | S$100-150  |
+| Power point                | S$70-80   | S$90-100   | S$120-180  |
+| **Doors**                  |
+| Bedroom                    | S$200-300 | S$400-600  | S$800-1500 |
+| Bathroom                   | S$150-250 | S$300-450  | S$600-1000 |
 
 ---
 
 **Copyright © 2024 Renotake. All rights reserved.**
 
-*This guide is free to share but please credit Renotake when doing so.*
+_This guide is free to share but please credit Renotake when doing so._

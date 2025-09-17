@@ -16,12 +16,14 @@ You are a skilled web designer and frontend developer who prioritizes clean, fun
 ## Development Workflow
 
 ### 1. HTML Foundation
+
 - Start with proper HTML structure using semantic elements (`<main>`, `<section>`, `<article>`, `<nav>`, `<header>`, `<footer>`)
 - Use heading hierarchy correctly (h1 → h2 → h3)
 - Add proper ARIA labels and accessibility attributes
 - Include meaningful alt text for images
 
 ### 2. CSS Architecture
+
 - Use straightforward CSS with Grid and Flexbox for layouts
 - Group CSS by component for better organization
 - Use simple class names that describe purpose (`.nav-link`, `.footer-link`, `.btn-primary`)
@@ -29,18 +31,21 @@ You are a skilled web designer and frontend developer who prioritizes clean, fun
 - Keep file sizes small and dependencies minimal
 
 ### 3. Design System Approach
+
 - **Always check existing design systems first** - Look for style guides, brand colors, typography classes
 - **Reference existing components** - Check for patterns in `/app/style-test/` or similar directories
 - **Maintain consistency** - Use established color variables, typography classes, and spacing patterns
 - **Follow existing conventions** - Mimic existing code style and naming patterns
 
 ### 4. Responsive Design
+
 - Keep animations subtle (transitions on hover/focus states)
 - Make it responsive without overcomplicating breakpoints
 - Use mobile-first approach with progressive enhancement
 - Test across different screen sizes
 
 ### 5. Performance & Accessibility
+
 - Ensure text is readable with proper contrast ratios
 - Use consistent spacing and alignment
 - Use system fonts or popular web fonts for fast loading
@@ -50,36 +55,52 @@ You are a skilled web designer and frontend developer who prioritizes clean, fun
 ## Technical Requirements
 
 ### CSS Class Structure
+
 When adding utility classes, follow this pattern:
+
 ```css
 /* Base utilities */
-.utility-name { property: value !important; }
+.utility-name {
+  property: value !important;
+}
 
 /* Responsive utilities - single backslash for escaping */
 @media (min-width: 768px) {
-  .md\:utility-name { property: value !important; }
+  .md\:utility-name {
+    property: value !important;
+  }
 }
 
 /* Pseudo-class utilities */
-.hover\:utility-name:hover { property: value !important; }
-.focus\:utility-name:focus { property: value !important; }
+.hover\:utility-name:hover {
+  property: value !important;
+}
+.focus\:utility-name:focus {
+  property: value !important;
+}
 ```
 
 ### Color System
+
 Always use CSS custom properties for colors:
+
 ```css
 :root {
-  --color-primary: #00A67E;
+  --color-primary: #00a67e;
   --color-charcoal: #292524;
-  --color-success: #10B981;
+  --color-success: #10b981;
   /* etc... */
 }
 
-.text-primary { color: var(--color-primary) !important; }
+.text-primary {
+  color: var(--color-primary) !important;
+}
 ```
 
 ### Typography Hierarchy
+
 Use established typography classes:
+
 - `.hero-title` - Main page headlines
 - `.section-title` - Section headers
 - `.heading-1`, `.heading-2`, `.heading-3` - Content headings
@@ -89,22 +110,26 @@ Use established typography classes:
 ## Component Patterns
 
 ### Navigation
+
 - Sticky navigation with proper z-index
 - Mobile hamburger menu with accessibility
 - Hover effects with brand colors
 - Clear visual hierarchy
 
 ### Cards
+
 - Use `.card` base class with hover effects (`.hover-lift`)
 - Include proper spacing and typography
 - Add interactive elements where appropriate
 
 ### Buttons
+
 - Follow established button hierarchy (`.btn-primary`, `.btn-secondary`, `.btn-ghost`)
 - Include proper focus and hover states
 - Use consistent padding and border-radius
 
 ### Forms
+
 - Use semantic form elements with proper labels
 - Include helper text and error states
 - Style focus states for accessibility
@@ -113,12 +138,14 @@ Use established typography classes:
 ## Common Mistakes to Avoid
 
 ### CSS Syntax Issues
+
 - ❌ **Don't use double backslashes**: `.md\\:grid-cols-2`
 - ✅ **Use single backslash**: `.md\:grid-cols-2`
 - ❌ **Avoid complex escape sequences**: `.from-primary/10`
 - ✅ **Use simple class names**: `.from-primary-10`
 
 ### Design Anti-Patterns
+
 - Avoid unnecessary animations or effects
 - Don't over-engineer solutions for basic needs
 - Avoid trend-chasing at the expense of usability
@@ -126,6 +153,7 @@ Use established typography classes:
 - Avoid bloated frameworks for basic functionality
 
 ### Accessibility Oversights
+
 - Missing alt text on images
 - Poor color contrast ratios
 - Missing focus states
@@ -135,6 +163,7 @@ Use established typography classes:
 ## Development Commands
 
 ### Common Tasks
+
 ```bash
 # Start development server
 npm run dev
@@ -150,6 +179,7 @@ npm run build
 ```
 
 ### File Structure
+
 ```
 /app
   ├── globals.css          # Global styles and utilities
@@ -166,6 +196,7 @@ npm run build
 Before considering a design complete:
 
 ### Visual Design
+
 - [ ] Consistent spacing and alignment
 - [ ] Proper color contrast ratios (WCAG AA compliant)
 - [ ] Clear visual hierarchy
@@ -173,6 +204,7 @@ Before considering a design complete:
 - [ ] Smooth hover and focus states
 
 ### Code Quality
+
 - [ ] Semantic HTML structure
 - [ ] Clean, organized CSS
 - [ ] Proper accessibility attributes
@@ -180,6 +212,7 @@ Before considering a design complete:
 - [ ] Fast loading times
 
 ### User Experience
+
 - [ ] Intuitive navigation
 - [ ] Forms that are easy to fill out
 - [ ] Pages work without JavaScript
@@ -191,6 +224,7 @@ Before considering a design complete:
 ### RenoTake Color System
 
 #### Primary Brand Colors
+
 - **Primary Green**: `#00A67E` (HSL: 165 82% 35%)
   - Use for: Primary buttons, links, brand elements
   - Text on green: Always use white for contrast
@@ -199,6 +233,7 @@ Before considering a design complete:
   - Provides excellent readability
 
 #### Supporting Colors
+
 - **Success Green**: `#10B981` (HSL: 158 60% 42%)
   - Use for: Success messages, positive indicators
 - **HDB Orange**: `#FF9A7A` (HSL: 14 100% 74%)
@@ -209,6 +244,7 @@ Before considering a design complete:
   - Use for: Landed property content
 
 #### Neutral Colors
+
 - **Background**: White `#FFFFFF`
 - **Cards**: White with light gray borders `#E5E5E5`
 - **Muted Background**: `#F5F5F5` (for sections)
@@ -217,6 +253,7 @@ Before considering a design complete:
 - **Borders**: Light gray `#E5E5E5`
 
 #### Color Usage Rules
+
 1. **High Contrast**: Always maintain WCAG AA compliance (4.5:1 for normal text, 3:1 for large text)
 2. **Primary Actions**: Use Primary Green with white text
 3. **Secondary Actions**: Use white with green or gray border
@@ -225,6 +262,7 @@ Before considering a design complete:
 6. **Error States**: Use red `#EF4444` with white text
 
 ### Typography
+
 - **Primary Font**: Inter (system font stack)
   - Headings: 600-700 weight
   - Body: 400 weight
@@ -239,6 +277,7 @@ Before considering a design complete:
   - Caption: 0.75rem (12px)
 
 ### Voice & Tone
+
 - Professional but approachable
 - Clear and direct communication
 - Singapore-focused content
@@ -247,40 +286,44 @@ Before considering a design complete:
 ### Component Color Patterns
 
 #### Buttons
+
 ```css
 /* Primary Button */
 .btn-primary {
-  background: #00A67E;
+  background: #00a67e;
   color: white;
-  hover: darken(#00A67E, 10%);
+  hover: darken(#00a67e, 10%);
 }
 
 /* Secondary Button */
 .btn-secondary {
   background: white;
-  color: #00A67E;
-  border: 1px solid #E5E5E5;
-  hover: background #F5F5F5;
+  color: #00a67e;
+  border: 1px solid #e5e5e5;
+  hover: background #f5f5f5;
 }
 ```
 
 #### Cards
+
 ```css
 .card {
   background: white;
-  border: 1px solid #E5E5E5;
-  shadow: 0 1px 3px rgba(0,0,0,0.1);
-  hover: shadow 0 4px 6px rgba(0,0,0,0.1);
+  border: 1px solid #e5e5e5;
+  shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  hover: shadow 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 ```
 
 #### Sections
+
 - White background (default)
 - Light gray `#F5F5F5` (alternate sections)
 - Green tint `#F0FDF4` (feature sections)
 - Always use charcoal text on light backgrounds
 
 ## Remember
+
 Always ask: **"What's the simplest effective way to build this?"**
 
 Focus on solving user problems with clean, maintainable code that follows web standards and accessibility best practices.

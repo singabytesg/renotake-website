@@ -7,16 +7,16 @@ export default function ToolsPage() {
   return (
     <div className="min-h-screen bg-white">
       <main className="container mx-auto px-4 py-12">
-        <div className="max-w-5xl mx-auto">
-          <h1 className="text-4xl font-bold mb-4">Interactive Planning Tools</h1>
-          <p className="text-xl text-gray-600 mb-12">
+        <div className="mx-auto max-w-5xl">
+          <h1 className="mb-4 text-4xl font-bold">Interactive Planning Tools</h1>
+          <p className="mb-12 text-xl text-gray-600">
             Practical calculators and planners designed specifically for Singapore renovations
           </p>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="hover:shadow-lg transition-shadow">
+          <div className="grid gap-8 md:grid-cols-2">
+            <Card className="transition-shadow hover:shadow-lg">
               <CardHeader>
-                <div className="text-green-600 mb-3">
+                <div className="mb-3 text-green-600">
                   <DollarSign className="h-8 w-8" />
                 </div>
                 <CardTitle className="text-xl">BTO Renovation Budget Calculator</CardTitle>
@@ -25,7 +25,7 @@ export default function ToolsPage() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2 text-sm text-gray-600 mb-6">
+                <ul className="mb-6 space-y-2 text-sm text-gray-600">
                   <li>• Room-by-room cost breakdown</li>
                   <li>• Adjustable quality tiers (Basic/Mid/Premium)</li>
                   <li>• Singapore-specific 2024 pricing</li>
@@ -37,9 +37,9 @@ export default function ToolsPage() {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="transition-shadow hover:shadow-lg">
               <CardHeader>
-                <div className="text-green-600 mb-3">
+                <div className="mb-3 text-green-600">
                   <FileCheck className="h-8 w-8" />
                 </div>
                 <CardTitle className="text-xl">HDB Permit Checker</CardTitle>
@@ -48,7 +48,7 @@ export default function ToolsPage() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2 text-sm text-gray-600 mb-6">
+                <ul className="mb-6 space-y-2 text-sm text-gray-600">
                   <li>• Interactive questionnaire</li>
                   <li>• Instant permit requirements</li>
                   <li>• Direct links to HDB forms</li>
@@ -60,9 +60,9 @@ export default function ToolsPage() {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="transition-shadow hover:shadow-lg">
               <CardHeader>
-                <div className="text-green-600 mb-3">
+                <div className="mb-3 text-green-600">
                   <Calendar className="h-8 w-8" />
                 </div>
                 <CardTitle className="text-xl">Renovation Timeline Planner</CardTitle>
@@ -71,7 +71,7 @@ export default function ToolsPage() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2 text-sm text-gray-600 mb-6">
+                <ul className="mb-6 space-y-2 text-sm text-gray-600">
                   <li>• Drag-and-drop milestone planning</li>
                   <li>• Dependencies and sequencing</li>
                   <li>• Buffer time recommendations</li>
@@ -83,9 +83,9 @@ export default function ToolsPage() {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="transition-shadow hover:shadow-lg">
               <CardHeader>
-                <div className="text-green-600 mb-3">
+                <div className="mb-3 text-green-600">
                   <Calculator className="h-8 w-8" />
                 </div>
                 <CardTitle className="text-xl">Material Cost Comparator</CardTitle>
@@ -94,7 +94,7 @@ export default function ToolsPage() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2 text-sm text-gray-600 mb-6">
+                <ul className="mb-6 space-y-2 text-sm text-gray-600">
                   <li>• Side-by-side comparisons</li>
                   <li>• Quality vs price analysis</li>
                   <li>• Maintenance cost factors</li>
@@ -107,9 +107,9 @@ export default function ToolsPage() {
             </Card>
           </div>
 
-          <div className="mt-12 bg-green-50 rounded-xl p-8 text-center">
-            <h2 className="text-2xl font-bold mb-4">More Tools Coming Soon</h2>
-            <p className="text-gray-600 mb-6">
+          <div className="mt-12 rounded-xl bg-green-50 p-8 text-center">
+            <h2 className="mb-4 text-2xl font-bold">More Tools Coming Soon</h2>
+            <p className="mb-6 text-gray-600">
               We're constantly developing new tools to help you plan your renovation better.
               Subscribe to get notified when new tools are released.
             </p>
@@ -120,16 +120,16 @@ export default function ToolsPage() {
         </div>
       </main>
 
-      <footer className="border-t border-gray-200 py-12 bg-gray-50 mt-20">
+      <footer className="mt-20 border-t border-gray-200 bg-gray-50 py-12">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <Link href="/" className="text-xl font-bold">
               Reno<span className="text-green-600">Take</span>
             </Link>
-            <p className="text-gray-600 text-sm mt-2">
+            <p className="mt-2 text-sm text-gray-600">
               Singapore's trusted renovation guide for BTO owners and homeowners.
             </p>
-            <p className="text-gray-500 text-xs mt-4">
+            <p className="mt-4 text-xs text-gray-500">
               © {new Date().getFullYear()} RenoTake. All rights reserved.
             </p>
           </div>

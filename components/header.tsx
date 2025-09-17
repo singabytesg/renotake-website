@@ -33,21 +33,21 @@ export default function Header() {
   }
 
   return (
-    <header className="container mx-auto py-6 px-4">
+    <header className="container mx-auto px-4 py-6">
       <div className="flex items-center justify-between">
         <Link href="/" className="text-2xl font-bold">
           Reno<span className="text-green-600">Take</span>
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-6 text-sm">
+        <nav className="hidden items-center space-x-6 text-sm md:flex">
           {navItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               className={`transition-colors ${
                 isActive(item.href)
-                  ? "text-gray-900 border-b-2 border-green-600 pb-1"
+                  ? "border-b-2 border-green-600 pb-1 text-gray-900"
                   : "text-gray-600 hover:text-gray-900"
               }`}
             >
@@ -58,7 +58,7 @@ export default function Header() {
 
         {/* Desktop CTA Button */}
         <Button
-          className="hidden md:block bg-green-600 hover:bg-green-700 text-white"
+          className="hidden bg-green-600 text-white hover:bg-green-700 md:block"
           onClick={scrollToNewsletter}
         >
           Get Updates
@@ -68,12 +68,7 @@ export default function Header() {
         <div className="flex items-center gap-2 md:hidden">
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
-              <Button
-                variant="ghost"
-                size="icon"
-                className="md:hidden"
-                aria-label="Open menu"
-              >
+              <Button variant="ghost" size="icon" className="md:hidden" aria-label="Open menu">
                 <Menu className="h-6 w-6" />
               </Button>
             </SheetTrigger>
@@ -91,18 +86,18 @@ export default function Header() {
                     key={item.href}
                     href={item.href}
                     onClick={() => setIsOpen(false)}
-                    className={`text-lg py-2 px-4 rounded-lg transition-colors ${
+                    className={`rounded-lg px-4 py-2 text-lg transition-colors ${
                       isActive(item.href)
-                        ? "bg-green-50 text-green-700 font-medium"
+                        ? "bg-green-50 font-medium text-green-700"
                         : "text-gray-600 hover:bg-gray-100"
                     }`}
                   >
                     {item.label}
                   </Link>
                 ))}
-                <div className="pt-4 mt-4 border-t">
+                <div className="mt-4 border-t pt-4">
                   <Button
-                    className="w-full bg-green-600 hover:bg-green-700 text-white"
+                    className="w-full bg-green-600 text-white hover:bg-green-700"
                     onClick={() => {
                       setIsOpen(false)
                       scrollToNewsletter()

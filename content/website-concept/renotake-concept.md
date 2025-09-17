@@ -1,4 +1,5 @@
 # RenoTake Website Concept
+
 **Singapore's Intelligent Renovation Guide**
 
 ## Executive Summary
@@ -10,7 +11,9 @@ RenoTake is a content-first website that empowers Singapore homeowners—particu
 ## 1. Strategic Positioning
 
 ### 1.1 Target Audience
+
 **Primary:** First-Time BTO Owners ("Anxious Planners")
+
 - Age: 25-35 years old
 - Timeline: 3-5 years pre-renovation planning phase
 - Budget: S$30,000-50,000 for 4-room BTO
@@ -21,23 +24,27 @@ RenoTake is a content-first website that empowers Singapore homeowners—particu
   - Stress from making permanent, expensive decisions
 
 ### 1.2 Market Gap
-| Current Platforms | What They Offer | What They Miss |
-|------------------|-----------------|----------------|
-| Qanvast | Beautiful portfolios, design inspiration | Process guidance, practical how-tos |
-| HomeRenoGuru | Local project galleries, video tours | Deep regulatory knowledge, budgeting |
-| Renotalk | Authentic user experiences | Structure, verification, efficiency |
+
+| Current Platforms | What They Offer                          | What They Miss                       |
+| ----------------- | ---------------------------------------- | ------------------------------------ |
+| Qanvast           | Beautiful portfolios, design inspiration | Process guidance, practical how-tos  |
+| HomeRenoGuru      | Local project galleries, video tours     | Deep regulatory knowledge, budgeting |
+| Renotalk          | Authentic user experiences               | Structure, verification, efficiency  |
 
 **RenoTake fills this gap by focusing on the PROCESS, not just the PICTURES.**
 
 ### 1.3 Unique Value Proposition
+
 "The only Singapore renovation platform that teaches you HOW, not just shows you WHAT."
 
 ## 2. Core Features
 
 ### 2.1 Comprehensive Content Pillars
+
 **Deep, authoritative guides that become the definitive resources**
 
 #### Pillar 1: The Ultimate HDB BTO Renovation Guide
+
 - 10,000+ words of structured guidance
 - Interactive timeline from key collection to handover
 - Downloadable checklists at each phase
@@ -45,6 +52,7 @@ RenoTake is a content-first website that empowers Singapore homeowners—particu
 - Real budget breakdowns from actual projects
 
 #### Pillar 2: Singapore Renovation Budgeting Bible
+
 - Line-by-line cost breakdowns
 - How to read contractor quotations
 - Hidden costs nobody tells you about
@@ -52,6 +60,7 @@ RenoTake is a content-first website that empowers Singapore homeowners—particu
 - When to splurge vs when to save
 
 #### Pillar 3: Navigating Renovation Contracts & Contractors
+
 - Red flags in quotations
 - Payment milestone best practices
 - Your rights when things go wrong
@@ -59,9 +68,11 @@ RenoTake is a content-first website that empowers Singapore homeowners—particu
 - Dispute resolution steps
 
 ### 2.2 AI-Powered Renovation Assistant
+
 **Free chatbot trained on Singapore-specific renovation knowledge**
 
 **Capabilities:**
+
 - Instant answers on HDB/BCA regulations
 - Material and cost comparisons
 - Timeline and process guidance
@@ -69,6 +80,7 @@ RenoTake is a content-first website that empowers Singapore homeowners—particu
 - Links to relevant detailed guides
 
 **Example Interactions:**
+
 ```
 User: "Can I hack the wall between my kitchen and living room?"
 Bot: "For BTO flats, you can hack non-structural partition walls between the kitchen and living room, but you'll need an HDB permit (takes 3 days, costs $30). The wall must not be marked as structural in your floor plan. I recommend checking your unit's layout plan first - here's our guide on identifying structural walls: [link]"
@@ -78,9 +90,11 @@ Bot: "Overlay ($8-15/sqft) involves installing new flooring directly over existi
 ```
 
 ### 2.3 Interactive Planning Tools
+
 **Practical calculators that provide real value**
 
 #### BTO Renovation Budget Calculator
+
 - Room-by-room cost estimation
 - Adjustable quality tiers (Basic/Mid/Premium)
 - Singapore-specific pricing data
@@ -88,6 +102,7 @@ Bot: "Overlay ($8-15/sqft) involves installing new flooring directly over existi
 - Optional email capture for detailed breakdown
 
 #### HDB Permit Checker
+
 - Interactive questionnaire
 - Determines which permits needed
 - Direct links to HDB application forms
@@ -95,6 +110,7 @@ Bot: "Overlay ($8-15/sqft) involves installing new flooring directly over existi
 - Common rejection reasons
 
 #### Renovation Timeline Planner
+
 - Drag-and-drop milestone planning
 - Dependencies and sequencing
 - Buffer time recommendations
@@ -104,6 +120,7 @@ Bot: "Overlay ($8-15/sqft) involves installing new flooring directly over existi
 ## 3. Content Strategy
 
 ### 3.1 Content Architecture
+
 ```
 /guides (Pillar Content)
   /ultimate-hdb-bto-guide
@@ -128,18 +145,21 @@ Bot: "Overlay ($8-15/sqft) involves installing new flooring directly over existi
 ### 3.2 Content Production Plan
 
 **Month 1-2: Foundation**
+
 - Launch 2 pillar guides
 - 20 high-priority answer articles
 - Basic budget calculator
 - AI chatbot (v1) trained on initial content
 
 **Month 3-6: Expansion**
+
 - Complete all 3 pillar guides
 - 100+ answer articles (3-5/week)
 - All 3 interactive tools
 - AI chatbot improvements based on user queries
 
 **Month 7-12: Authority**
+
 - 200+ answer articles covering all common queries
 - Video content for complex topics
 - Seasonal content (CNY renovation, year-end planning)
@@ -148,6 +168,7 @@ Bot: "Overlay ($8-15/sqft) involves installing new flooring directly over existi
 ### 3.3 SEO Domination Strategy
 
 **Target Keywords (Examples):**
+
 - Head Terms: "BTO renovation", "HDB renovation cost"
 - Long-tail: "can hack bedroom wall 4 room bto"
 - Local: "singapore renovation permit apply online"
@@ -155,6 +176,7 @@ Bot: "Overlay ($8-15/sqft) involves installing new flooring directly over existi
 - Problem: "tiles popping after renovation"
 
 **Technical SEO:**
+
 - Schema markup (FAQ, HowTo, LocalBusiness)
 - Core Web Vitals optimization
 - Mobile-responsive design
@@ -164,28 +186,36 @@ Bot: "Overlay ($8-15/sqft) involves installing new flooring directly over existi
 ## 4. User Journey
 
 ### 4.1 Discovery Phase
+
 **Years before renovation**
+
 - User searches: "BTO renovation cost Singapore"
 - Lands on comprehensive guide
 - Bookmarks site for future reference
 - Optional: Signs up for renovation tips newsletter
 
 ### 4.2 Research Phase
+
 **Months before renovation**
+
 - Returns to use budget calculator
 - Asks chatbot specific questions
 - Reads targeted answer articles
 - Downloads checklists and templates
 
 ### 4.3 Planning Phase
+
 **Weeks before renovation**
+
 - Uses timeline planner
 - Checks permit requirements
 - Reviews contractor management guide
 - Prepares using site resources
 
 ### 4.4 Execution Phase
+
 **During renovation**
+
 - References guides for each milestone
 - Uses chatbot for troubleshooting
 - Checks processes against checklists
@@ -194,6 +224,7 @@ Bot: "Overlay ($8-15/sqft) involves installing new flooring directly over existi
 ## 5. Technical Architecture
 
 ### 5.1 Technology Stack
+
 ```
 Frontend:
 - Next.js 14+ (App Router)
@@ -218,6 +249,7 @@ Infrastructure:
 ```
 
 ### 5.2 Performance Requirements
+
 - Page Load: < 2 seconds
 - Chatbot Response: < 3 seconds
 - Calculator Results: Instant
@@ -225,7 +257,9 @@ Infrastructure:
 - SEO Score: 95+ (Lighthouse)
 
 ### 5.3 Desktop-First Design
+
 Based on Singapore data (56.41% desktop usage):
+
 - Optimized for 1920x1080 screens
 - Complex tools designed for desktop
 - Mobile-responsive (not mobile-first)
@@ -234,6 +268,7 @@ Based on Singapore data (56.41% desktop usage):
 ## 6. Content Management
 
 ### 6.1 Content Creation Workflow
+
 1. **Topic Research:** Identify high-value keywords and user questions
 2. **AI Draft Generation:** Create initial content using GPT-4
 3. **Expert Review:** Local expert adds Singapore context and verification
@@ -242,6 +277,7 @@ Based on Singapore data (56.41% desktop usage):
 6. **Iteration:** Update based on user engagement and chatbot queries
 
 ### 6.2 Quality Standards
+
 - Every article must solve a real problem
 - Include specific Singapore examples
 - Reference actual costs in SGD
@@ -251,12 +287,14 @@ Based on Singapore data (56.41% desktop usage):
 ## 7. Success Metrics
 
 ### 7.1 Primary KPIs
+
 - Organic Traffic Growth: 50% MoM for first 6 months
 - Chatbot Usage: 1,000+ daily conversations by month 6
 - Page Rankings: Top 3 for 50+ target keywords
 - User Retention: 40%+ return visitor rate
 
 ### 7.2 Content Performance
+
 - Average Time on Page: > 3 minutes for guides
 - Bounce Rate: < 40% for answer articles
 - Tool Usage: 30% of visitors use calculators
@@ -264,7 +302,7 @@ Based on Singapore data (56.41% desktop usage):
 
 ## 8. Placeholder: Future Features
 
-*This section reserved for future conversion features and monetization strategies*
+_This section reserved for future conversion features and monetization strategies_
 
 - Email capture for detailed tool results
 - Newsletter signup for renovation tips
@@ -275,6 +313,7 @@ Based on Singapore data (56.41% desktop usage):
 ## 9. Launch Roadmap
 
 ### Phase 1: MVP (Month 1)
+
 - [ ] Basic website structure
 - [ ] 2 pillar guides published
 - [ ] 20 answer articles
@@ -282,6 +321,7 @@ Based on Singapore data (56.41% desktop usage):
 - [ ] AI chatbot (basic)
 
 ### Phase 2: Growth (Month 2-3)
+
 - [ ] Complete all 3 pillar guides
 - [ ] 50+ answer articles
 - [ ] All 3 interactive tools
@@ -289,6 +329,7 @@ Based on Singapore data (56.41% desktop usage):
 - [ ] SEO optimization
 
 ### Phase 3: Scale (Month 4-6)
+
 - [ ] 100+ answer articles
 - [ ] Video content integration
 - [ ] Advanced chatbot features
@@ -296,6 +337,7 @@ Based on Singapore data (56.41% desktop usage):
 - [ ] Content partnerships
 
 ### Phase 4: Authority (Month 7-12)
+
 - [ ] 200+ comprehensive answers
 - [ ] Domain authority building
 - [ ] Featured snippets optimization
