@@ -481,9 +481,5 @@ The architecture is now perfectly set up for adding:
 
 📍 Access Points
 
-- Main Guide: http://localhost:3001/guides/bto-renovation
-- Phase 1: http://localhost:3001/guides/bto-renovation/pre-collection-planning
-- Original Guide (still works): http://localhost:3001/guides/ultimate-hdb-bto-renovation-guide
-
-The refactor creates a much more engaging and useful experience compared to the static markdown approach, with clear visual hierarchy, better navigation, and a foundation ready for interactive
-features when you're ready to add them!
+- Main Guide: http://localhost:3001/guides/ultimate-hdb-bto-renovation-guide
+- Phase 1: http://localhost:3001/guides/ultimate-hdb-bto-renovation-guide/pre-collection-planning

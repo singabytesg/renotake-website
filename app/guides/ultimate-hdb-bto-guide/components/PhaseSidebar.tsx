@@ -7,9 +7,14 @@ import { ChevronRight } from "lucide-react"
 interface PhaseSidebarProps {
   phase: Phase
   currentSection: string | null
+  showActions?: boolean
 }
 
-export default function PhaseSidebar({ phase, currentSection }: PhaseSidebarProps) {
+export default function PhaseSidebar({
+  phase,
+  currentSection,
+  showActions = false,
+}: PhaseSidebarProps) {
   const [activeSection, setActiveSection] = useState<string | null>(currentSection)
 
   useEffect(() => {
@@ -48,30 +53,67 @@ export default function PhaseSidebar({ phase, currentSection }: PhaseSidebarProp
   const sections = getPhaseSection(phase.slug)
 
   return (
-    <div className="sticky top-24">
-      <h3 className="mb-4 text-xs font-semibold uppercase tracking-wider text-gray-500">
-        In This Phase
-      </h3>
-      <nav className="space-y-1">
-        {sections.map((section) => (
-          <button
-            key={section.id}
-            onClick={() => handleSectionClick(section.id)}
-            className={`flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-sm transition-colors ${
-              activeSection === section.id
-                ? "bg-primary/10 font-medium text-primary"
-                : "text-gray-600 hover:bg-gray-100 hover:text-charcoal"
-            }`}
-          >
-            <span>{section.title}</span>
-            <ChevronRight
-              className={`h-3 w-3 transition-opacity ${
-                activeSection === section.id ? "opacity-100" : "opacity-0"
+    <div className="sticky top-24 space-y-6">
+      {/* In This Phase Navigation */}
+      <div>
+        <h3 className="mb-4 text-xs font-semibold uppercase tracking-wider text-gray-500">
+          In This Phase
+        </h3>
+        <nav className="space-y-1">
+          {sections.map((section) => (
+            <button
+              key={section.id}
+              onClick={() => handleSectionClick(section.id)}
+              className={`flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-sm transition-colors ${
+                activeSection === section.id
+                  ? "bg-primary/10 font-medium text-primary"
+                  : "text-gray-600 hover:bg-gray-100 hover:text-charcoal"
               }`}
-            />
-          </button>
-        ))}
-      </nav>
+            >
+              <span>{section.title}</span>
+              <ChevronRight
+                className={`h-3 w-3 transition-opacity ${
+                  activeSection === section.id ? "opacity-100" : "opacity-0"
+                }`}
+              />
+            </button>
+          ))}
+        </nav>
+      </div>
+
+      {/* Key Takeaways & Quick Actions - only show when showActions is true */}
+      {showActions && (
+        <>
+          {/* Key Takeaways */}
+          <div className="rounded-lg border border-primary/20 bg-primary/5 p-4">
+            <h3 className="mb-3 text-sm font-semibold text-charcoal">Key Takeaways</h3>
+            <ul className="space-y-2 text-sm text-gray-600">
+              {phase.keyPoints.map((point, index) => (
+                <li key={index} className="flex items-start gap-2">
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                  <span>{point}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Quick Actions */}
+          <div className="rounded-lg border border-gray-200 bg-white p-4">
+            <h3 className="mb-3 text-sm font-semibold text-charcoal">Quick Actions</h3>
+            <div className="space-y-2">
+              <button className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-700 hover:bg-gray-50">
+                Download Checklist
+              </button>
+              <button className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-700 hover:bg-gray-50">
+                Print Phase
+              </button>
+              <button className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-700 hover:bg-gray-50">
+                Share
+              </button>
+            </div>
+          </div>
+        </>
+      )}
     </div>
   )
 }

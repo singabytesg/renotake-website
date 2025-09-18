@@ -75,47 +75,13 @@ export default async function PhasePage({ params }: PhasePageProps) {
         <div className="flex gap-8">
           {/* Left Sidebar - Desktop Only */}
           <aside className="hidden w-64 shrink-0 lg:block">
-            <PhaseSidebar phase={phase} currentSection={null} />
+            <PhaseSidebar phase={phase} currentSection={null} showActions={true} />
           </aside>
 
           {/* Main Content */}
           <main className="min-w-0 flex-1">
             <PhaseContent phase={phase} />
           </main>
-
-          {/* Right Sidebar - Desktop Only */}
-          <aside className="hidden w-64 shrink-0 xl:block">
-            <div className="sticky top-24 space-y-6">
-              {/* Key Takeaways */}
-              <div className="rounded-lg border border-primary/20 bg-primary/5 p-4">
-                <h3 className="mb-3 text-sm font-semibold text-charcoal">Key Takeaways</h3>
-                <ul className="space-y-2 text-sm text-gray-600">
-                  {phase.keyPoints.map((point, index) => (
-                    <li key={index} className="flex items-start gap-2">
-                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-                      <span>{point}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* Quick Actions */}
-              <div className="rounded-lg border border-gray-200 bg-white p-4">
-                <h3 className="mb-3 text-sm font-semibold text-charcoal">Quick Actions</h3>
-                <div className="space-y-2">
-                  <button className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-700 hover:bg-gray-50">
-                    Download Checklist
-                  </button>
-                  <button className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-700 hover:bg-gray-50">
-                    Print Phase
-                  </button>
-                  <button className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-700 hover:bg-gray-50">
-                    Share
-                  </button>
-                </div>
-              </div>
-            </div>
-          </aside>
         </div>
       </div>
 
