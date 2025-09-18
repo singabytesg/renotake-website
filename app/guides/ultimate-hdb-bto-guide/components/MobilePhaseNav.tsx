@@ -51,7 +51,7 @@ export default function MobilePhaseNav() {
                 return (
                   <Link
                     key={phase.id}
-                    href={`/guides/bto-renovation/${phase.slug}`}
+                    href={`/guides/ultimate-hdb-bto-guide/${phase.slug}`}
                     onClick={() => setIsOpen(false)}
                     className={`flex items-center justify-between rounded-lg p-3 ${
                       isActive
@@ -77,7 +77,7 @@ export default function MobilePhaseNav() {
             {/* Back to Overview */}
             <div className="mt-4 border-t pt-4">
               <Link
-                href="/guides/bto-renovation"
+                href="/guides/ultimate-hdb-bto-guide"
                 onClick={() => setIsOpen(false)}
                 className="flex items-center justify-center rounded-lg bg-gray-100 py-3 font-medium text-charcoal hover:bg-gray-200"
               >

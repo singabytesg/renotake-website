@@ -21,7 +21,7 @@ export default function PhaseNavigation({ navigation }: PhaseNavigationProps) {
           {/* Previous Phase */}
           {previous ? (
             <Link
-              href={`/guides/bto-renovation/${previous.slug}`}
+              href={`/guides/ultimate-hdb-bto-guide/${previous.slug}`}
               className="group flex items-center gap-3 rounded-lg border border-gray-300 bg-white px-4 py-3 transition-colors hover:border-primary hover:bg-primary/5"
             >
               <ArrowLeft className="h-5 w-5 text-gray-400 group-hover:text-primary" />
@@ -39,7 +39,7 @@ export default function PhaseNavigation({ navigation }: PhaseNavigationProps) {
           {/* Next Phase */}
           {next ? (
             <Link
-              href={`/guides/bto-renovation/${next.slug}`}
+              href={`/guides/ultimate-hdb-bto-guide/${next.slug}`}
               className="group flex items-center gap-3 rounded-lg border border-gray-300 bg-white px-4 py-3 transition-colors hover:border-primary hover:bg-primary/5"
             >
               <div className="text-right">
@@ -52,7 +52,7 @@ export default function PhaseNavigation({ navigation }: PhaseNavigationProps) {
             </Link>
           ) : (
             <Link
-              href="/guides/bto-renovation"
+              href="/guides/ultimate-hdb-bto-guide"
               className="group flex items-center gap-3 rounded-lg bg-primary px-6 py-3 text-white transition-colors hover:bg-primary/90"
             >
               <div className="text-right">

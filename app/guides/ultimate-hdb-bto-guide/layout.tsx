@@ -7,7 +7,7 @@ import { Home, ChevronRight } from "lucide-react"
 
 export default function BTOGuideLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname()
-  const isMainPage = pathname === "/guides/bto-renovation"
+  const isMainPage = pathname === "/guides/ultimate-hdb-bto-guide"
 
   // Extract current phase from pathname
   const currentPhaseSlug = pathname.split("/").pop()
@@ -28,7 +28,7 @@ export default function BTOGuideLayout({ children }: { children: React.ReactNode
             </Link>
             <ChevronRight className="h-4 w-4 text-gray-400" />
             <Link
-              href="/guides/bto-renovation"
+              href="/guides/ultimate-hdb-bto-guide"
               className={
                 isMainPage ? "font-medium text-charcoal" : "text-gray-500 hover:text-gray-700"
               }
@@ -57,7 +57,7 @@ export default function BTOGuideLayout({ children }: { children: React.ReactNode
                 return (
                   <Link
                     key={phase.id}
-                    href={`/guides/bto-renovation/${phase.slug}`}
+                    href={`/guides/ultimate-hdb-bto-guide/${phase.slug}`}
                     className={`flex shrink-0 items-center gap-2 rounded-lg px-3 py-2 text-sm font-medium transition-colors ${
                       isActive
                         ? "bg-primary text-white"

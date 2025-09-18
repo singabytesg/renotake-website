@@ -53,7 +53,7 @@ export default function BTORenovationGuide() {
           {/* CTA Buttons */}
           <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
-              href="/guides/bto-renovation/pre-collection-planning"
+              href="/guides/ultimate-hdb-bto-guide/pre-collection-planning"
               className="inline-flex items-center rounded-lg bg-primary px-8 py-3 text-white transition-colors hover:bg-primary/90"
             >
               Start Your Journey
@@ -245,7 +245,7 @@ export default function BTORenovationGuide() {
 
           <div className="mt-8 text-center">
             <Link
-              href="/guides/bto-renovation/pre-collection-planning"
+              href="/guides/ultimate-hdb-bto-guide/pre-collection-planning"
               className="inline-flex items-center text-primary hover:underline"
             >
               See detailed cost breakdowns
@@ -265,7 +265,7 @@ export default function BTORenovationGuide() {
           </p>
           <div className="mt-8">
             <Link
-              href="/guides/bto-renovation/pre-collection-planning"
+              href="/guides/ultimate-hdb-bto-guide/pre-collection-planning"
               className="inline-flex items-center rounded-lg bg-white px-8 py-3 text-primary transition-colors hover:bg-gray-100"
             >
               Begin Phase 1: Pre-Collection Planning

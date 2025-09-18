@@ -9,7 +9,7 @@ interface PhaseCardProps {
 export default function PhaseCard({ phase }: PhaseCardProps) {
   return (
     <Link
-      href={`/guides/bto-renovation/${phase.slug}`}
+      href={`/guides/ultimate-hdb-bto-guide/${phase.slug}`}
       className="group relative overflow-hidden rounded-lg border border-gray-200 bg-white p-6 transition-all hover:border-primary/50 hover:shadow-lg"
     >
       {/* Phase Number Badge */}

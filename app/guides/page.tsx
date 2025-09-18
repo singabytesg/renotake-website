@@ -41,7 +41,7 @@ export default function GuidesPage() {
                     Read by 10,000+ homeowners
                   </span>
                 </div>
-                <Link href="/guides/ultimate-hdb-bto-renovation-guide">
+                <Link href="/guides/ultimate-hdb-bto-guide">
                   <Button className="mt-6 bg-green-600 hover:bg-green-700">Read Guide</Button>
                 </Link>
               </CardContent>
