@@ -14,9 +14,6 @@ export default function PhaseProgress({ currentPhase, totalPhases }: PhaseProgre
           style={{ width: `${progressPercentage}%` }}
         />
       </div>
-      <div className="absolute right-4 top-full mt-1 text-xs text-gray-500">
-        Phase {currentPhase} of {totalPhases}
-      </div>
     </div>
   )
 }

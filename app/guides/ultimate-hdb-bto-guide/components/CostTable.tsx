@@ -20,20 +20,20 @@ export default function CostTable({ data, title }: CostTableProps) {
           <h3 className="text-lg font-semibold text-charcoal">{title}</h3>
         </div>
       )}
-      <div className="overflow-x-auto">
+      <div className="scrollbar-hide overflow-x-auto">
         <table className="min-w-full divide-y divide-gray-200">
           <thead className="bg-gray-50">
             <tr>
-              <th className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500">
+              <th className="px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500 md:px-6">
                 Item
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500">
+              <th className="px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500 md:px-6">
                 Basic
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500">
+              <th className="px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500 md:px-6">
                 Standard
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500">
+              <th className="px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500 md:px-6">
                 Premium
               </th>
             </tr>
@@ -41,18 +41,26 @@ export default function CostTable({ data, title }: CostTableProps) {
           <tbody className="divide-y divide-gray-200 bg-white">
             {data.map((row, index) => (
               <tr key={index} className="hover:bg-gray-50">
-                <td className="px-6 py-4">
+                <td className="px-4 py-4 md:px-6">
                   <div>
-                    <div className="text-sm font-medium text-gray-900">{row.item}</div>
-                    {row.unit && <div className="text-xs text-gray-500">{row.unit}</div>}
+                    <div className="whitespace-nowrap text-sm font-medium text-gray-900">
+                      {row.item}
+                    </div>
+                    {row.unit && (
+                      <div className="whitespace-nowrap text-xs text-gray-500">{row.unit}</div>
+                    )}
                     {row.notes && <div className="text-xs text-gray-500">{row.notes}</div>}
                   </div>
                 </td>
-                <td className="whitespace-nowrap px-6 py-4 text-sm text-gray-600">{row.basic}</td>
-                <td className="whitespace-nowrap px-6 py-4 text-sm text-gray-600">
+                <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
+                  {row.basic}
+                </td>
+                <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
                   {row.standard}
                 </td>
-                <td className="whitespace-nowrap px-6 py-4 text-sm text-gray-600">{row.premium}</td>
+                <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
+                  {row.premium}
+                </td>
               </tr>
             ))}
           </tbody>

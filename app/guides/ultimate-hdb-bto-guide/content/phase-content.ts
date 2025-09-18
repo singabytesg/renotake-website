@@ -88,6 +88,7 @@ const phaseContentMap: Record<string, PhaseContentData> = {
           {
             title: "4-3 Months Before Keys",
             content: `
+              <h3>4-3 Months Before Keys</h3>
               <p>This is when you move from research to active engagement:</p>
               <ul>
                 <li>Shortlist 5-8 potential contractors or IDs</li>
@@ -100,6 +101,7 @@ const phaseContentMap: Record<string, PhaseContentData> = {
           {
             title: "2-1 Months Before Keys",
             content: `
+              <h3>2-1 Months Before Keys</h3>
               <p>Decision time is approaching:</p>
               <ul>
                 <li>Narrow down to your top 3 contractors</li>
@@ -323,6 +325,7 @@ const phaseContentMap: Record<string, PhaseContentData> = {
           {
             title: "Flooring Inspection",
             content: `
+              <h3>Flooring Inspection</h3>
               <ul>
                 <li>Check for uneven surfaces using marble or ball test</li>
                 <li>Look for cracks or chips in screed</li>
@@ -334,6 +337,7 @@ const phaseContentMap: Record<string, PhaseContentData> = {
           {
             title: "Electrical & Plumbing Systems",
             content: `
+              <h3>Electrical & Plumbing Systems</h3>
               <ul>
                 <li>Test all power points with phone charger</li>
                 <li>Check DB box labeling and breakers</li>
@@ -571,6 +575,7 @@ const phaseContentMap: Record<string, PhaseContentData> = {
           {
             title: "Master Bedroom Essentials",
             content: `
+              <h3>Master Bedroom Essentials</h3>
               <ul>
                 <li>Bed placement for optimal feng shui and practicality</li>
                 <li>Wardrobe configuration (reach-in vs walk-in)</li>
@@ -582,6 +587,7 @@ const phaseContentMap: Record<string, PhaseContentData> = {
           {
             title: "Common Bedroom Flexibility",
             content: `
+              <h3>Common Bedroom Flexibility</h3>
               <ul>
                 <li>Multi-functional designs for changing needs</li>
                 <li>Convertible study/guest room options</li>
@@ -869,6 +875,7 @@ const phaseContentMap: Record<string, PhaseContentData> = {
           {
             title: "Step 4: Site Visits",
             content: `
+              <h3>Step 4: Site Visits</h3>
               <ul>
                 <li>Visit their current ongoing projects</li>
                 <li>Check workmanship quality firsthand</li>
@@ -880,6 +887,7 @@ const phaseContentMap: Record<string, PhaseContentData> = {
           {
             title: "Step 5: Final Decision",
             content: `
+              <h3>Step 5: Final Decision</h3>
               <ul>
                 <li>Compare detailed quotations line by line</li>
                 <li>Negotiate terms and pricing</li>
@@ -1278,6 +1286,7 @@ const phaseContentMap: Record<string, PhaseContentData> = {
           {
             title: "Wet Areas & Waterproofing",
             content: `
+              <h3>Wet Areas & Waterproofing</h3>
               <h4>✅ CAN DO:</h4>
               <ul>
                 <li>Waterproof bathroom floors properly</li>
@@ -1298,6 +1307,7 @@ const phaseContentMap: Record<string, PhaseContentData> = {
           {
             title: "Electrical & Aircon Works",
             content: `
+              <h3>Electrical & Aircon Works</h3>
               <h4>✅ CAN DO:</h4>
               <ul>
                 <li>Add power points (licensed electrician)</li>

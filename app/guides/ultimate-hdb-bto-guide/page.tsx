@@ -181,66 +181,70 @@ export default function BTORenovationGuide() {
           </div>
 
           <div className="mt-12 overflow-hidden rounded-lg bg-white shadow">
-            <table className="min-w-full divide-y divide-gray-200">
-              <thead className="bg-gray-50">
-                <tr>
-                  <th className="px-6 py-3 text-left text-sm font-semibold text-gray-900">
-                    Flat Type
-                  </th>
-                  <th className="px-6 py-3 text-left text-sm font-semibold text-gray-900">Basic</th>
-                  <th className="px-6 py-3 text-left text-sm font-semibold text-gray-900">
-                    Standard
-                  </th>
-                  <th className="px-6 py-3 text-left text-sm font-semibold text-gray-900">
-                    Premium
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200 bg-white">
-                <tr>
-                  <td className="whitespace-nowrap px-6 py-4 text-sm font-medium text-gray-900">
-                    3-Room (65 sqm)
-                  </td>
-                  <td className="whitespace-nowrap px-6 py-4 text-sm text-gray-600">
-                    S$20,000 - S$30,000
-                  </td>
-                  <td className="whitespace-nowrap px-6 py-4 text-sm text-gray-600">
-                    S$30,000 - S$45,000
-                  </td>
-                  <td className="whitespace-nowrap px-6 py-4 text-sm text-gray-600">
-                    S$45,000 - S$65,000
-                  </td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="whitespace-nowrap px-6 py-4 text-sm font-medium text-gray-900">
-                    4-Room (90 sqm)
-                  </td>
-                  <td className="whitespace-nowrap px-6 py-4 text-sm text-gray-600">
-                    S$30,000 - S$40,000
-                  </td>
-                  <td className="whitespace-nowrap px-6 py-4 text-sm text-gray-600">
-                    S$40,000 - S$60,000
-                  </td>
-                  <td className="whitespace-nowrap px-6 py-4 text-sm text-gray-600">
-                    S$60,000 - S$85,000
-                  </td>
-                </tr>
-                <tr>
-                  <td className="whitespace-nowrap px-6 py-4 text-sm font-medium text-gray-900">
-                    5-Room (110 sqm)
-                  </td>
-                  <td className="whitespace-nowrap px-6 py-4 text-sm text-gray-600">
-                    S$40,000 - S$55,000
-                  </td>
-                  <td className="whitespace-nowrap px-6 py-4 text-sm text-gray-600">
-                    S$55,000 - S$75,000
-                  </td>
-                  <td className="whitespace-nowrap px-6 py-4 text-sm text-gray-600">
-                    S$75,000 - S$100,000+
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+            <div className="scrollbar-hide overflow-x-auto">
+              <table className="min-w-full divide-y divide-gray-200">
+                <thead className="bg-gray-50">
+                  <tr>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 md:px-6">
+                      Flat Type
+                    </th>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 md:px-6">
+                      Basic
+                    </th>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 md:px-6">
+                      Standard
+                    </th>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 md:px-6">
+                      Premium
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200 bg-white">
+                  <tr>
+                    <td className="whitespace-nowrap px-4 py-4 text-sm font-medium text-gray-900 md:px-6">
+                      3-Room (65 sqm)
+                    </td>
+                    <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
+                      S$20,000 - S$30,000
+                    </td>
+                    <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
+                      S$30,000 - S$45,000
+                    </td>
+                    <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
+                      S$45,000 - S$65,000
+                    </td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="whitespace-nowrap px-4 py-4 text-sm font-medium text-gray-900 md:px-6">
+                      4-Room (90 sqm)
+                    </td>
+                    <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
+                      S$30,000 - S$40,000
+                    </td>
+                    <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
+                      S$40,000 - S$60,000
+                    </td>
+                    <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
+                      S$60,000 - S$85,000
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="whitespace-nowrap px-4 py-4 text-sm font-medium text-gray-900 md:px-6">
+                      5-Room (110 sqm)
+                    </td>
+                    <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
+                      S$40,000 - S$55,000
+                    </td>
+                    <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
+                      S$55,000 - S$75,000
+                    </td>
+                    <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
+                      S$75,000 - S$100,000+
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
 
           <div className="mt-8 text-center">

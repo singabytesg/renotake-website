@@ -43,16 +43,18 @@ export default function PhaseContent({ phase }: PhaseContentProps) {
 
       {/* Main Sections */}
       {content.sections.map((section, index) => (
-        <ContentSection key={section.id} section={section} index={index} />
-      ))}
+        <>
+          <ContentSection key={section.id} section={section} index={index} />
 
-      {/* Cost Breakdown */}
-      {content.costBreakdown && (
-        <section id="costs" className="scroll-mt-20">
-          <h2 className="mb-6 text-2xl font-bold text-charcoal">Cost Breakdown</h2>
-          <CostTable data={content.costBreakdown} />
-        </section>
-      )}
+          {/* Insert Cost Breakdown after Budget Planning section */}
+          {section.id === "budget" && content.costBreakdown && (
+            <section id="costs" className="scroll-mt-20">
+              <h2 className="mb-6 text-2xl font-bold text-charcoal">Cost Breakdown</h2>
+              <CostTable data={content.costBreakdown} />
+            </section>
+          )}
+        </>
+      ))}
 
       {/* Checklists */}
       {content.checklists &&

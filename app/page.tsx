@@ -317,7 +317,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="/guides/singapore-renovation-budgeting"
+                    href="/guides/singapore-renovation-budgeting-bible"
                     className="hover:text-gray-900"
                   >
                     Budgeting Bible

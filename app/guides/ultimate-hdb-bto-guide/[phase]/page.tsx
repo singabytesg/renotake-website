@@ -5,7 +5,6 @@ import PhaseContent from "../components/PhaseContent"
 import PhaseNavigation from "../components/PhaseNavigation"
 import PhaseProgress from "../components/PhaseProgress"
 import PhaseSidebar from "../components/PhaseSidebar"
-import MobilePhaseNav from "../components/MobilePhaseNav"
 
 interface PhasePageProps {
   params: Promise<{
@@ -122,9 +121,6 @@ export default async function PhasePage({ params }: PhasePageProps) {
 
       {/* Phase Navigation */}
       <PhaseNavigation navigation={navigation} />
-
-      {/* Mobile Navigation */}
-      <MobilePhaseNav />
     </div>
   )
 }

@@ -9,8 +9,9 @@ export default function BTOGuideLayout({ children }: { children: React.ReactNode
   const pathname = usePathname()
   const isMainPage = pathname === "/guides/ultimate-hdb-bto-guide"
 
-  // Extract current phase from pathname
-  const currentPhaseSlug = pathname.split("/").pop()
+  // Extract current phase from pathname - handle trailing slashes
+  const pathParts = pathname.replace(/\/$/, "").split("/")
+  const currentPhaseSlug = pathParts[pathParts.length - 1]
   const currentPhase = phases.find((p) => p.slug === currentPhaseSlug)
 
   return (
@@ -58,9 +59,9 @@ export default function BTOGuideLayout({ children }: { children: React.ReactNode
                   <Link
                     key={phase.id}
                     href={`/guides/ultimate-hdb-bto-guide/${phase.slug}`}
-                    className={`flex shrink-0 items-center gap-2 rounded-lg px-3 py-2 text-sm font-medium transition-colors ${
+                    className={`flex shrink-0 items-center gap-2 rounded-lg px-3 py-2 text-sm font-medium transition-all ${
                       isActive
-                        ? "bg-primary text-white"
+                        ? "bg-primary text-white shadow-md ring-2 ring-primary ring-offset-1"
                         : "text-gray-600 hover:bg-gray-100 hover:text-charcoal"
                     }`}
                   >

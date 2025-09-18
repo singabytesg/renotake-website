@@ -124,7 +124,7 @@ Bot: "Overlay ($8-15/sqft) involves installing new flooring directly over existi
 ```
 /guides (Pillar Content)
   /ultimate-hdb-bto-guide
-  /singapore-renovation-budgeting
+  /singapore-renovation-budgeting-bible
   /contractor-management-guide
 
 /answers (Cluster Content - 150-180 words each)

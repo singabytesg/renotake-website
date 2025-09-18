@@ -53,7 +53,7 @@ export default function GuidesPage() {
                 description="Line-by-line cost breakdowns, hidden costs, and when to splurge vs save"
                 icon={<FileText className="h-5 w-5" />}
                 readTime="30 min"
-                link="/guides/singapore-renovation-budgeting"
+                link="/guides/singapore-renovation-budgeting-bible"
               />
               <GuideCard
                 title="Navigating Contracts & Contractors"

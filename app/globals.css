@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Hide scrollbar on touch devices only */
+@layer utilities {
+  @media (hover: none) and (pointer: coarse) {
+    .scrollbar-hide {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none; /* Chrome, Safari and Opera */
+    }
+  }
+}
+
 @layer base {
   :root {
     /* RenoTake Brand Colors */

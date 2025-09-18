@@ -44,26 +44,16 @@ export default function ContentSection({ section, index }: ContentSectionProps) 
 
       {/* Section Content */}
       {isExpanded && (
-        <div className="space-y-6">
-          <div
-            className="prose prose-lg max-w-none text-gray-700"
-            dangerouslySetInnerHTML={{ __html: section.content }}
-          />
+        <div className="prose prose-lg max-w-none text-gray-700">
+          <div dangerouslySetInnerHTML={{ __html: section.content }} />
 
-          {/* Subsections */}
-          {section.subsections && (
-            <div className="space-y-6 border-l-2 border-gray-200 pl-6">
-              {section.subsections.map((subsection, subIndex) => (
-                <div key={subIndex}>
-                  <h3 className="mb-3 text-lg font-semibold text-charcoal">{subsection.title}</h3>
-                  <div
-                    className="prose max-w-none text-gray-600"
-                    dangerouslySetInnerHTML={{ __html: subsection.content }}
-                  />
-                </div>
-              ))}
-            </div>
-          )}
+          {/* Subsections - rendered inline with main content */}
+          {section.subsections &&
+            section.subsections.map((subsection, subIndex) => (
+              <div key={subIndex}>
+                <div dangerouslySetInnerHTML={{ __html: subsection.content }} />
+              </div>
+            ))}
         </div>
       )}
     </section>
