@@ -13,6 +13,7 @@ export default function Header() {
 
   const navItems = [
     { href: "/guides", label: "Guides" },
+    { href: "/articles", label: "Articles" },
     { href: "/tools", label: "Tools" },
     { href: "/answers", label: "Quick Answers" },
     { href: "/ask-renoai", label: "Ask RenoAI" },

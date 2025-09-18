@@ -1,411 +1,316 @@
 import { Metadata } from "next"
 import Link from "next/link"
+import { parts } from "./parts"
+import PartCard from "./components/PartCard"
 import {
+  ArrowRight,
   Calculator,
   TrendingDown,
-  TrendingUp,
-  AlertCircle,
+  AlertTriangle,
   DollarSign,
   PiggyBank,
-  Receipt,
-  FileText,
-  CheckCircle2,
-  ArrowRight,
+  FileSpreadsheet,
 } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Singapore Renovation Budgeting Bible | Complete Cost Guide | RenoTake",
+  title: "Singapore Renovation Budgeting Bible | RenoTake",
   description:
-    "The definitive guide to renovation budgeting in Singapore. Line-by-line cost breakdowns, hidden expenses, and expert advice on when to splurge vs save.",
+    "Your complete financial guide for HDB BTO renovation. Discover S$15,000+ in hidden costs, save S$20,000+ with proven strategies, and master your renovation budget.",
 }
 
-export default function BudgetingBiblePage() {
+export default function BudgetingBibleGuide() {
+  const totalSavings = "S$20,000+"
+  const hiddenCosts = "S$15,000"
+  const avgOverrun = "20-40%"
+  const strategies = "50+"
+
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-primary/5 to-white">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="text-center">
+            <div className="mb-4 inline-flex items-center rounded-full bg-red-100 px-4 py-2 text-sm font-medium text-red-800">
+              <AlertTriangle className="mr-2 h-4 w-4" />
+              73% of homeowners exceed their budget by {avgOverrun}
+            </div>
             <h1 className="text-4xl font-bold tracking-tight text-charcoal sm:text-5xl lg:text-6xl">
-              Singapore Renovation
+              The Singapore Renovation
               <span className="block text-primary">Budgeting Bible</span>
             </h1>
             <p className="mx-auto mt-6 max-w-3xl text-xl text-gray-600">
-              The definitive guide to renovation costs in Singapore. Line-by-line breakdowns, hidden
-              expenses revealed, and expert strategies on where to splurge vs save.
+              Your complete financial guide for HDB BTO renovation. Expose hidden costs, master
+              strategic spending, and save thousands with data-driven insights from 500+
+              renovations.
             </p>
           </div>
 
           {/* Key Stats */}
           <div className="mt-12 grid grid-cols-2 gap-6 sm:grid-cols-4">
             <div className="rounded-lg bg-white p-6 text-center shadow-sm">
-              <div className="text-3xl font-bold text-primary">S$30-60k</div>
-              <div className="mt-2 text-sm text-gray-600">Avg 4-Room HDB</div>
+              <DollarSign className="mx-auto mb-2 h-8 w-8 text-red-500" />
+              <div className="text-3xl font-bold text-red-500">{hiddenCosts}</div>
+              <div className="mt-2 text-sm text-gray-600">Hidden Costs Exposed</div>
             </div>
             <div className="rounded-lg bg-white p-6 text-center shadow-sm">
-              <div className="text-3xl font-bold text-primary">20-30%</div>
-              <div className="mt-2 text-sm text-gray-600">Hidden Costs</div>
+              <PiggyBank className="mx-auto mb-2 h-8 w-8 text-green-500" />
+              <div className="text-3xl font-bold text-green-500">{totalSavings}</div>
+              <div className="mt-2 text-sm text-gray-600">Potential Savings</div>
             </div>
             <div className="rounded-lg bg-white p-6 text-center shadow-sm">
-              <div className="text-3xl font-bold text-primary">S$5-10k</div>
-              <div className="mt-2 text-sm text-gray-600">Avg Overrun</div>
+              <Calculator className="mx-auto mb-2 h-8 w-8 text-blue-500" />
+              <div className="text-3xl font-bold text-blue-500">{strategies}</div>
+              <div className="mt-2 text-sm text-gray-600">Money-Saving Tips</div>
             </div>
             <div className="rounded-lg bg-white p-6 text-center shadow-sm">
-              <div className="text-3xl font-bold text-primary">15%</div>
-              <div className="mt-2 text-sm text-gray-600">Buffer Needed</div>
+              <FileSpreadsheet className="mx-auto mb-2 h-8 w-8 text-purple-500" />
+              <div className="text-3xl font-bold text-purple-500">10+</div>
+              <div className="mt-2 text-sm text-gray-600">Free Templates</div>
             </div>
           </div>
-        </div>
-      </section>
 
-      {/* Main Content Sections */}
-      <section className="py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-8 lg:grid-cols-3">
-            {/* Part 1: Complete Cost Breakdown */}
+          {/* CTA Buttons */}
+          <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
               href="/guides/singapore-renovation-budgeting-bible/complete-cost-breakdown"
-              className="group relative overflow-hidden rounded-lg border border-gray-200 bg-white p-6 transition-all hover:border-primary hover:shadow-lg"
+              className="inline-flex items-center rounded-lg bg-primary px-8 py-3 text-white transition-colors hover:bg-primary/90"
             >
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
-                <Calculator className="h-6 w-6 text-primary" />
-              </div>
-              <h3 className="mb-2 text-xl font-semibold text-charcoal">
-                Part 1: Complete Cost Breakdown
-              </h3>
-              <p className="mb-4 text-gray-600">
-                Detailed line-by-line costs for every aspect of renovation. From hacking to
-                painting, carpentry to electrical works.
-              </p>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Room-by-room cost analysis</li>
-                <li>• Material vs labor breakdowns</li>
-                <li>• 2024-2025 market rates</li>
-                <li>• Price comparison tables</li>
-              </ul>
-              <div className="mt-4 flex items-center text-primary">
-                <span className="text-sm font-medium">Explore breakdown</span>
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </div>
+              Start Saving Now
+              <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
-
-            {/* Part 2: Hidden Costs Exposed */}
-            <Link
-              href="/guides/singapore-renovation-budgeting-bible/hidden-costs"
-              className="group relative overflow-hidden rounded-lg border border-gray-200 bg-white p-6 transition-all hover:border-primary hover:shadow-lg"
-            >
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-orange-100">
-                <AlertCircle className="h-6 w-6 text-orange-600" />
-              </div>
-              <h3 className="mb-2 text-xl font-semibold text-charcoal">
-                Part 2: Hidden Costs Exposed
-              </h3>
-              <p className="mb-4 text-gray-600">
-                The expenses contractors don't mention upfront. Avoid budget shock with our
-                comprehensive list of often-forgotten costs.
-              </p>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Disposal & haulage fees</li>
-                <li>• Permits & applications</li>
-                <li>• Touch-up & rectification</li>
-                <li>• Temporary accommodation</li>
-              </ul>
-              <div className="mt-4 flex items-center text-primary">
-                <span className="text-sm font-medium">Reveal hidden costs</span>
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </div>
-            </Link>
-
-            {/* Part 3: Splurge vs Save Guide */}
-            <Link
-              href="/guides/singapore-renovation-budgeting-bible/splurge-vs-save"
-              className="group relative overflow-hidden rounded-lg border border-gray-200 bg-white p-6 transition-all hover:border-primary hover:shadow-lg"
-            >
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-green-100">
-                <TrendingUp className="h-6 w-6 text-green-600" />
-              </div>
-              <h3 className="mb-2 text-xl font-semibold text-charcoal">
-                Part 3: When to Splurge vs Save
-              </h3>
-              <p className="mb-4 text-gray-600">
-                Strategic spending guide to maximize your renovation value. Know exactly where to
-                invest and where to cut costs.
-              </p>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Worth the splurge items</li>
-                <li>• Smart saving opportunities</li>
-                <li>• ROI analysis by feature</li>
-                <li>• Quality vs price balance</li>
-              </ul>
-              <div className="mt-4 flex items-center text-primary">
-                <span className="text-sm font-medium">Smart spending guide</span>
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </div>
-            </Link>
-
-            {/* Part 4: Budget Planning Tools */}
-            <Link
-              href="/guides/singapore-renovation-budgeting-bible/budget-planning"
-              className="group relative overflow-hidden rounded-lg border border-gray-200 bg-white p-6 transition-all hover:border-primary hover:shadow-lg"
-            >
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-blue-100">
-                <FileText className="h-6 w-6 text-blue-600" />
-              </div>
-              <h3 className="mb-2 text-xl font-semibold text-charcoal">
-                Part 4: Budget Planning & Templates
-              </h3>
-              <p className="mb-4 text-gray-600">
-                Practical templates and calculators to plan your renovation budget. Track expenses
-                and stay on target.
-              </p>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Budget calculator template</li>
-                <li>• Payment schedule planner</li>
-                <li>• Expense tracking sheets</li>
-                <li>• Contingency planning</li>
-              </ul>
-              <div className="mt-4 flex items-center text-primary">
-                <span className="text-sm font-medium">Get templates</span>
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </div>
-            </Link>
-
-            {/* Part 5: Financing Options */}
-            <Link
-              href="/guides/singapore-renovation-budgeting-bible/financing-options"
-              className="group relative overflow-hidden rounded-lg border border-gray-200 bg-white p-6 transition-all hover:border-primary hover:shadow-lg"
-            >
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-purple-100">
-                <DollarSign className="h-6 w-6 text-purple-600" />
-              </div>
-              <h3 className="mb-2 text-xl font-semibold text-charcoal">
-                Part 5: Financing Your Renovation
-              </h3>
-              <p className="mb-4 text-gray-600">
-                Complete guide to renovation loans, payment strategies, and financial planning for
-                your home improvement.
-              </p>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Renovation loan comparison</li>
-                <li>• HDB vs bank loans</li>
-                <li>• Payment milestone strategy</li>
-                <li>• CPF usage guidelines</li>
-              </ul>
-              <div className="mt-4 flex items-center text-primary">
-                <span className="text-sm font-medium">Explore financing</span>
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </div>
-            </Link>
-
-            {/* Part 6: Cost-Saving Strategies */}
-            <Link
-              href="/guides/singapore-renovation-budgeting-bible/cost-saving-strategies"
-              className="group relative overflow-hidden rounded-lg border border-gray-200 bg-white p-6 transition-all hover:border-primary hover:shadow-lg"
-            >
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-emerald-100">
-                <PiggyBank className="h-6 w-6 text-emerald-600" />
-              </div>
-              <h3 className="mb-2 text-xl font-semibold text-charcoal">
-                Part 6: 50 Ways to Save Money
-              </h3>
-              <p className="mb-4 text-gray-600">
-                Proven strategies to reduce renovation costs without compromising quality. Save
-                thousands with insider tips.
-              </p>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Timing & seasonal savings</li>
-                <li>• Direct contractor benefits</li>
-                <li>• Material sourcing secrets</li>
-                <li>• Negotiation tactics</li>
-              </ul>
-              <div className="mt-4 flex items-center text-primary">
-                <span className="text-sm font-medium">Start saving</span>
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </div>
-            </Link>
+            <button className="inline-flex items-center rounded-lg border border-gray-300 bg-white px-8 py-3 text-charcoal transition-colors hover:bg-gray-50">
+              <Calculator className="mr-2 h-5 w-5" />
+              Quick Budget Calculator
+            </button>
           </div>
         </div>
       </section>
 
-      {/* Quick Reference Table */}
+      {/* What You'll Master */}
       <section className="bg-gray-50 py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="mb-8 text-center text-3xl font-bold text-charcoal">
-            Quick Budget Reference (4-Room HDB)
-          </h2>
-          <div className="overflow-hidden rounded-lg bg-white shadow">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-charcoal">What You'll Master</h2>
+            <p className="mt-4 text-lg text-gray-600">
+              Complete financial control over your renovation in 6 comprehensive parts
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+            <div className="flex gap-4">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-red-100">
+                <AlertTriangle className="h-6 w-6 text-red-600" />
+              </div>
+              <div>
+                <h3 className="font-semibold text-charcoal">Hidden Cost Detection</h3>
+                <p className="mt-1 text-sm text-gray-600">
+                  Uncover S$15,000+ in expenses contractors won't mention
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-green-100">
+                <TrendingDown className="h-6 w-6 text-green-600" />
+              </div>
+              <div>
+                <h3 className="font-semibold text-charcoal">Cost Optimization</h3>
+                <p className="mt-1 text-sm text-gray-600">
+                  Strategic spending decisions backed by ROI analysis
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-blue-100">
+                <Calculator className="h-6 w-6 text-blue-600" />
+              </div>
+              <div>
+                <h3 className="font-semibold text-charcoal">Budget Calculators</h3>
+                <p className="mt-1 text-sm text-gray-600">
+                  Interactive tools for real-time budget tracking
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-purple-100">
+                <FileSpreadsheet className="h-6 w-6 text-purple-600" />
+              </div>
+              <div>
+                <h3 className="font-semibold text-charcoal">Planning Templates</h3>
+                <p className="mt-1 text-sm text-gray-600">
+                  Downloadable Excel sheets and tracking tools
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-teal-100">
+                <DollarSign className="h-6 w-6 text-teal-600" />
+              </div>
+              <div>
+                <h3 className="font-semibold text-charcoal">Financing Mastery</h3>
+                <p className="mt-1 text-sm text-gray-600">
+                  Compare loans, optimize payments, maximize savings
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-yellow-100">
+                <PiggyBank className="h-6 w-6 text-yellow-600" />
+              </div>
+              <div>
+                <h3 className="font-semibold text-charcoal">50+ Savings Strategies</h3>
+                <p className="mt-1 text-sm text-gray-600">
+                  Proven tactics to cut S$20,000+ from your budget
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Parts Overview */}
+      <section className="py-16">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-charcoal">Your Financial Roadmap</h2>
+            <p className="mt-4 text-lg text-gray-600">
+              Master your renovation budget with our proven 6-part system
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 md:grid-cols-2">
+            {parts.map((part) => (
+              <PartCard key={part.id} part={part} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Budget Reality Check */}
+      <section className="bg-gray-50 py-16">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-charcoal">2025 Budget Reality Check</h2>
+            <p className="mt-4 text-lg text-gray-600">
+              Average renovation costs for HDB BTO flats (excluding furniture)
+            </p>
+          </div>
+
+          <div className="mt-12 overflow-hidden rounded-lg bg-white shadow">
             <div className="scrollbar-hide overflow-x-auto">
               <table className="min-w-full divide-y divide-gray-200">
                 <thead className="bg-gray-50">
                   <tr>
                     <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 md:px-6">
-                      Category
+                      Flat Type
                     </th>
                     <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 md:px-6">
-                      Basic
+                      Basic Renovation
                     </th>
                     <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 md:px-6">
-                      Standard
+                      Standard Renovation
                     </th>
                     <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 md:px-6">
-                      Premium
+                      Premium Renovation
                     </th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-200 bg-white">
                   <tr>
                     <td className="whitespace-nowrap px-4 py-4 text-sm font-medium text-gray-900 md:px-6">
-                      Flooring (90sqm)
+                      3-Room BTO
                     </td>
                     <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
-                      S$3,600 - S$4,500
+                      S$30,000 - S$35,000
                     </td>
                     <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
-                      S$5,400 - S$7,200
+                      S$40,000 - S$55,000
                     </td>
                     <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
-                      S$8,100 - S$10,800
+                      S$60,000 - S$75,000
                     </td>
                   </tr>
                   <tr className="bg-gray-50">
                     <td className="whitespace-nowrap px-4 py-4 text-sm font-medium text-gray-900 md:px-6">
-                      Kitchen
+                      4-Room BTO
                     </td>
                     <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
-                      S$5,000 - S$8,000
+                      S$35,000 - S$45,000
                     </td>
                     <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
-                      S$8,000 - S$12,000
+                      S$50,000 - S$65,000
                     </td>
                     <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
-                      S$12,000 - S$20,000
+                      S$70,000 - S$90,000
                     </td>
                   </tr>
                   <tr>
                     <td className="whitespace-nowrap px-4 py-4 text-sm font-medium text-gray-900 md:px-6">
-                      Carpentry
+                      5-Room BTO
                     </td>
                     <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
-                      S$8,000 - S$10,000
+                      S$40,000 - S$55,000
                     </td>
                     <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
-                      S$10,000 - S$15,000
+                      S$60,000 - S$80,000
                     </td>
                     <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
-                      S$15,000 - S$25,000
-                    </td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="whitespace-nowrap px-4 py-4 text-sm font-medium text-gray-900 md:px-6">
-                      Electrical
-                    </td>
-                    <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
-                      S$2,000 - S$3,000
-                    </td>
-                    <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
-                      S$3,000 - S$4,500
-                    </td>
-                    <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
-                      S$4,500 - S$6,000
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="whitespace-nowrap px-4 py-4 text-sm font-medium text-gray-900 md:px-6">
-                      Bathrooms (2)
-                    </td>
-                    <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
-                      S$3,000 - S$5,000
-                    </td>
-                    <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
-                      S$5,000 - S$8,000
-                    </td>
-                    <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-600 md:px-6">
-                      S$8,000 - S$12,000
-                    </td>
-                  </tr>
-                  <tr className="bg-gray-50 font-semibold">
-                    <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-900 md:px-6">
-                      Total Range
-                    </td>
-                    <td className="whitespace-nowrap px-4 py-4 text-sm text-primary md:px-6">
-                      S$30,000 - S$40,000
-                    </td>
-                    <td className="whitespace-nowrap px-4 py-4 text-sm text-primary md:px-6">
-                      S$40,000 - S$60,000
-                    </td>
-                    <td className="whitespace-nowrap px-4 py-4 text-sm text-primary md:px-6">
-                      S$60,000 - S$85,000
+                      S$85,000 - S$110,000
                     </td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
-        </div>
-      </section>
 
-      {/* Common Budget Mistakes */}
-      <section className="py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="mb-12 text-center text-3xl font-bold text-charcoal">
-            Top 5 Budget Mistakes to Avoid
-          </h2>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-5">
-            <div className="rounded-lg border border-red-200 bg-red-50 p-6">
-              <div className="mb-3 text-2xl font-bold text-red-600">#1</div>
-              <h3 className="mb-2 font-semibold text-charcoal">No Buffer Fund</h3>
-              <p className="text-sm text-gray-600">
-                Not keeping 10-15% contingency for unexpected costs
-              </p>
+          <div className="mt-8 rounded-lg bg-yellow-50 p-6">
+            <div className="flex items-start gap-3">
+              <AlertTriangle className="mt-1 h-5 w-5 shrink-0 text-yellow-600" />
+              <div>
+                <h3 className="font-semibold text-gray-900">Hidden Costs Alert</h3>
+                <p className="mt-1 text-sm text-gray-600">
+                  These figures don't include the S$12,000-S$25,000 in hidden costs that 73% of
+                  homeowners discover too late. Our guide exposes every single one.
+                </p>
+              </div>
             </div>
-            <div className="rounded-lg border border-red-200 bg-red-50 p-6">
-              <div className="mb-3 text-2xl font-bold text-red-600">#2</div>
-              <h3 className="mb-2 font-semibold text-charcoal">Ignoring Hidden Costs</h3>
-              <p className="text-sm text-gray-600">
-                Forgetting disposal fees, permits, and temporary housing
-              </p>
-            </div>
-            <div className="rounded-lg border border-red-200 bg-red-50 p-6">
-              <div className="mb-3 text-2xl font-bold text-red-600">#3</div>
-              <h3 className="mb-2 font-semibold text-charcoal">Scope Creep</h3>
-              <p className="text-sm text-gray-600">
-                Adding "small" changes that balloon the budget
-              </p>
-            </div>
-            <div className="rounded-lg border border-red-200 bg-red-50 p-6">
-              <div className="mb-3 text-2xl font-bold text-red-600">#4</div>
-              <h3 className="mb-2 font-semibold text-charcoal">Paying Too Much Upfront</h3>
-              <p className="text-sm text-gray-600">
-                Giving more than 30% deposit before work starts
-              </p>
-            </div>
-            <div className="rounded-lg border border-red-200 bg-red-50 p-6">
-              <div className="mb-3 text-2xl font-bold text-red-600">#5</div>
-              <h3 className="mb-2 font-semibold text-charcoal">Cheapest Quote Trap</h3>
-              <p className="text-sm text-gray-600">
-                Choosing lowest price without checking what's excluded
-              </p>
-            </div>
+          </div>
+
+          <div className="mt-8 text-center">
+            <Link
+              href="/guides/singapore-renovation-budgeting-bible/hidden-costs-exposed"
+              className="inline-flex items-center text-primary hover:underline"
+            >
+              Discover all hidden costs now
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* Call to Action */}
       <section className="bg-primary py-16">
         <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-white">Master Your Renovation Budget</h2>
+          <h2 className="text-3xl font-bold text-white">Ready to Master Your Renovation Budget?</h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-white/90">
-            Start with our complete cost breakdown to understand exactly where your money goes in a
-            Singapore renovation.
+            Join thousands of Singapore homeowners who saved an average of S$15,000 using our
+            comprehensive budgeting guide.
           </p>
-          <div className="mt-8">
+          <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
               href="/guides/singapore-renovation-budgeting-bible/complete-cost-breakdown"
               className="inline-flex items-center rounded-lg bg-white px-8 py-3 text-primary transition-colors hover:bg-gray-100"
             >
-              Start with Cost Breakdown
+              Start Part 1: Complete Cost Breakdown
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
+            <button className="inline-flex items-center rounded-lg border border-white/30 bg-white/10 px-8 py-3 text-white backdrop-blur transition-colors hover:bg-white/20">
+              Download Budget Template
+            </button>
           </div>
         </div>
       </section>

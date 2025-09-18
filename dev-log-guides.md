@@ -483,3 +483,212 @@ The architecture is now perfectly set up for adding:
 
 - Main Guide: http://localhost:3001/guides/ultimate-hdb-bto-renovation-guide
 - Phase 1: http://localhost:3001/guides/ultimate-hdb-bto-renovation-guide/pre-collection-planning
+
+---
+
+## Update: Singapore Renovation Budgeting Bible Implementation
+
+### Date: September 19, 2025
+
+### Overview
+
+Implemented the second pillar guide - Singapore Renovation Budgeting Bible - following the established pattern from the BTO guide. This comprehensive financial guide focuses on budgeting, hidden costs, financing, and money-saving strategies for Singapore renovations.
+
+### Implementation Process
+
+#### 1. Content Transformation
+
+- **Source**: 1,200-line markdown file from `/content/guides/singapore-renovation-budgeting-bible.md`
+- **Structure**: Transformed into 6-part system (vs 8 phases for BTO guide)
+- **Content Volume**: 10,000+ words covering financial aspects comprehensively
+
+#### 2. Directory Structure Created
+
+```
+/app/guides/singapore-renovation-budgeting-bible/
+├── page.tsx                          # Main landing page with hero & stats
+├── layout.tsx                        # Custom layout with breadcrumbs
+├── parts.ts                          # Parts data structure (6 parts)
+├── [part]/
+│   └── page.tsx                      # Dynamic part pages
+├── components/
+│   ├── PartCard.tsx                  # Part overview cards with savings indicators
+│   ├── PartContent.tsx               # Content renderer with dynamic components
+│   ├── PartNavigation.tsx           # Previous/Next navigation
+│   ├── PartProgress.tsx              # Visual progress bar
+│   ├── PartSidebar.tsx               # Section navigation & actions
+│   ├── MobilePartNav.tsx            # Mobile bottom sheet navigation
+│   ├── BudgetCalculator.tsx         # Interactive budget calculator
+│   ├── CostTable.tsx                 # Responsive pricing tables
+│   ├── HiddenCostChecklist.tsx      # Interactive hidden costs tracker
+│   ├── SavingsTip.tsx                # Money-saving strategy cards
+│   └── FinancingComparison.tsx      # Loan comparison tool
+└── content/
+    └── part-content.ts               # 1,600+ lines of structured content
+```
+
+#### 3. Key Components Implemented
+
+##### Interactive Financial Tools
+
+- **BudgetCalculator**: Room-by-room cost calculator with adjustable sliders
+- **HiddenCostChecklist**: Track S$15,000+ in hidden costs with running total
+- **FinancingComparison**: Compare loans from 7 banks with real-time calculations
+
+##### Content Display Components
+
+- **CostTable**: Responsive tables for pricing data
+- **SavingsTip**: Categorized tips with effort/impact ratings
+- **PartCard**: Cards showing potential savings per part
+
+#### 4. Content Structure
+
+```typescript
+interface PartContent {
+  slug: string
+  sections: ContentSection[]
+}
+
+interface ContentSection {
+  title: string
+  content?: string[]
+  list?: string[]
+  table?: {
+    headers: string[]
+    rows: (string | number)[][]
+    caption?: string
+  }
+  checklist?: ChecklistItem[]
+  tips?: SavingsTip[]
+  calculator?: string
+  comparison?: LoanOption[]
+  highlight?: { title: string; content: string }
+  warning?: { title: string; content: string }
+}
+```
+
+#### 5. The 6 Parts System
+
+1. **Complete Cost Breakdown** (`complete-cost-breakdown`)
+   - Master budget matrices
+   - Room-by-room analysis
+   - 2025 market rates
+
+2. **Hidden Costs Exposed** (`hidden-costs-exposed`)
+   - S$15,000 in hidden costs
+   - Interactive checklist
+   - Red flag warnings
+
+3. **When to Splurge vs Save** (`splurge-vs-save`)
+   - ROI analysis
+   - Strategic spending decisions
+   - Material comparisons
+
+4. **Budget Planning & Templates** (`budget-planning-templates`)
+   - Payment trackers
+   - Quality checklists
+   - Vendor comparison tools
+
+5. **Financing Your Renovation** (`financing-renovation`)
+   - Loan comparisons
+   - CPF guidelines
+   - Emergency financing
+
+6. **50 Ways to Save Money** (`50-ways-save-money`)
+   - All 50 strategies included
+   - Categorized by type
+   - S$20,000 savings stack
+
+#### 6. Key Statistics Highlighted
+
+- **S$15,000** - Hidden costs exposed
+- **S$20,000+** - Potential savings
+- **73%** - Homeowners who exceed budget
+- **50+** - Money-saving strategies
+
+#### 7. Technical Implementation Details
+
+##### Static Generation
+
+```typescript
+export async function generateStaticParams() {
+  return [
+    { part: "complete-cost-breakdown" },
+    { part: "hidden-costs-exposed" },
+    { part: "splurge-vs-save" },
+    { part: "budget-planning-templates" },
+    { part: "financing-renovation" },
+    { part: "50-ways-save-money" },
+  ]
+}
+```
+
+##### Content Rendering Strategy
+
+- Dynamic component selection based on section type
+- Conditional rendering for tables, checklists, calculators
+- Progressive enhancement for interactive elements
+
+##### Mobile Optimization
+
+- Bottom sheet navigation pattern
+- Floating action button for part selection
+- Touch-optimized interactive components
+- Responsive tables with horizontal scroll
+
+#### 8. Differences from BTO Guide
+
+| Aspect       | BTO Guide                 | Budgeting Bible                  |
+| ------------ | ------------------------- | -------------------------------- |
+| Structure    | 8 phases (timeline-based) | 6 parts (topic-based)            |
+| Focus        | Process & timeline        | Financial & budgeting            |
+| Navigation   | Phase progression         | Part exploration                 |
+| Interactive  | Checklists                | Calculators & comparisons        |
+| Color Scheme | Phase-based colors        | Financial indicators (green/red) |
+
+#### 9. Performance Metrics
+
+- **Build Time**: Successfully builds all 6 static pages
+- **Bundle Size**: ~20.2 kB for dynamic parts
+- **TypeScript**: No errors in strict mode
+- **ESLint**: No warnings or errors
+- **Static Generation**: All parts pre-rendered
+
+#### 10. Testing Completed
+
+✅ All components TypeScript compliant
+✅ Build succeeds without errors
+✅ All 6 parts generate statically
+✅ Mobile navigation functional
+✅ Interactive calculators working
+✅ Content renders correctly
+
+### Access Points
+
+- **Main Guide**: `/guides/singapore-renovation-budgeting-bible`
+- **Part 1**: `/guides/singapore-renovation-budgeting-bible/complete-cost-breakdown`
+- **Part 2**: `/guides/singapore-renovation-budgeting-bible/hidden-costs-exposed`
+- **Part 3**: `/guides/singapore-renovation-budgeting-bible/splurge-vs-save`
+- **Part 4**: `/guides/singapore-renovation-budgeting-bible/budget-planning-templates`
+- **Part 5**: `/guides/singapore-renovation-budgeting-bible/financing-renovation`
+- **Part 6**: `/guides/singapore-renovation-budgeting-bible/50-ways-save-money`
+
+### Reusable Pattern for Next Guide
+
+The implementation establishes a reusable pattern for creating additional pillar guides:
+
+1. **Structure Decision**: Choose between phase-based (timeline) or part-based (topics)
+2. **Component Reuse**: Most components can be copied and renamed (Phase→Part or Section→Chapter)
+3. **Content Structure**: Use the established ContentSection interface
+4. **Interactive Elements**: Add guide-specific calculators/tools as needed
+5. **Static Generation**: Follow the same pattern for generateStaticParams
+
+### Next Steps for New Guides
+
+To implement a new guide (e.g., Contracts & Disputes Guide):
+
+1. Copy the structure from either BTO guide (phases) or Budgeting Bible (parts)
+2. Rename components (e.g., Part→Chapter, Phase→Stage)
+3. Create guide-specific interactive components
+4. Structure content in the established format
+5. Add to main guides page

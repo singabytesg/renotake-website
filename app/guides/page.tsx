@@ -60,7 +60,7 @@ export default function GuidesPage() {
                 description="Red flags, payment milestones, your rights, and dispute resolution"
                 icon={<FileText className="h-5 w-5" />}
                 readTime="25 min"
-                link="/guides/contractor-management-guide"
+                link="/guides/singapore-renovation-contracts-disputes-guide"
               />
               <GuideCard
                 title="HDB Permit Requirements Guide"
