@@ -3,12 +3,24 @@ import Link from "next/link"
 import { phases } from "./phases"
 import PhaseCard from "./components/PhaseCard"
 import { ArrowRight, Clock, Users, CheckCircle2, TrendingUp } from "lucide-react"
+import { generateSEOMetadata } from "@/components/seo-metadata"
 
-export const metadata: Metadata = {
-  title: "The Ultimate HDB BTO Renovation Guide | RenoTake",
+export const metadata: Metadata = generateSEOMetadata({
+  title: "Ultimate HDB BTO Renovation Guide 2024 - Complete Step-by-Step",
   description:
-    "Your complete roadmap to renovating your BTO flat in Singapore - with real costs, timelines, and insider tips from 500+ successful renovations.",
-}
+    "Complete HDB BTO renovation guide with 2024 costs ($30K-$60K), 3-4 month timeline, permit requirements, contractor tips. Based on 500+ Singapore renovations. Free checklist included.",
+  keywords: [
+    "HDB BTO renovation guide",
+    "BTO renovation cost 2024",
+    "Singapore BTO renovation",
+    "HDB renovation timeline",
+    "BTO key collection",
+    "HDB renovation permit",
+    "4-room BTO renovation",
+    "5-room HDB renovation cost",
+  ],
+  canonicalUrl: "https://renotake.sg/guides/ultimate-hdb-bto-guide",
+})
 
 export default function BTORenovationGuide() {
   const totalDuration = "3-4 months"

@@ -3,12 +3,24 @@ import { getAllArticles, articleCategories } from "./_lib/article-parser"
 import ArticlesGrid from "./_components/ArticlesGrid"
 import CategoryFilter from "./_components/CategoryFilter"
 import { Newspaper } from "lucide-react"
+import { generateSEOMetadata } from "@/components/seo-metadata"
 
-export const metadata = {
-  title: "Renovation Articles & Tips | RenoTake",
+export const metadata = generateSEOMetadata({
+  title: "Singapore Renovation Articles, Tips & Cost Guides 2024",
   description:
-    "Quick reads on Singapore renovation tips, cost-saving strategies, HDB updates, and real homeowner experiences. 5-minute articles for busy homeowners.",
-}
+    "Expert renovation articles for Singapore homeowners. HDB rules, cost-saving tips, contractor advice, real case studies. Quick 5-minute reads with actionable insights.",
+  keywords: [
+    "Singapore renovation articles",
+    "HDB renovation tips",
+    "renovation cost saving",
+    "contractor advice Singapore",
+    "BTO renovation stories",
+    "renovation mistakes to avoid",
+    "HDB hacking rules",
+    "renovation case studies",
+  ],
+  canonicalUrl: "https://renotake.sg/articles",
+})
 
 export default async function ArticlesPage() {
   const allArticles = await getAllArticles({ sortBy: "date" })
