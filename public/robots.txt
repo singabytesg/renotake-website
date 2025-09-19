@@ -1,0 +1,12 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /test-colors
+
+# Host
+Host: https://renotake.sg
+
+# Sitemaps
+Sitemap: https://renotake.sg/sitemap.xml
