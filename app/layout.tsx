@@ -8,7 +8,7 @@ import ScrollToTop from "@/components/scroll-to-top"
 import Script from "next/script"
 import { generateLocalBusinessSchema, generateStructuredData } from "@/components/seo-metadata"
 import GoogleAnalytics from "@/components/google-analytics"
-import EmailCapturePopup from "@/components/email-capture-popup"
+// import EmailCapturePopup from "@/components/email-capture-popup" // Temporarily disabled
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -103,7 +103,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         {children}
         <ScrollToTop />
-        <EmailCapturePopup />
+        {/* <EmailCapturePopup /> */} {/* Temporarily disabled */}
         <Toaster />
       </body>
     </html>
