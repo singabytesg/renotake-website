@@ -15,7 +15,6 @@ module.exports = {
         disallow: ["/api/", "/_next/", "/test-colors"],
       },
     ],
-    additionalSitemaps: ["https://renotake.sg/sitemap.xml"],
   },
   transform: async (config, path) => {
     // Prioritize important pages
