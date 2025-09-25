@@ -101,7 +101,7 @@ export default function ToolsPage() {
                   <li>• Supplier recommendations</li>
                 </ul>
                 <Button className="w-full bg-green-600 hover:bg-green-700">
-                  <Link href="/tools/material-comparator">Compare Materials</Link>
+                  <Link href="/tools/material-cost-comparator">Compare Materials</Link>
                 </Button>
               </CardContent>
             </Card>
