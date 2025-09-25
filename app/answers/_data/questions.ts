@@ -1,4 +1,5 @@
-import { QAItem } from "./types"
+import { QAItem, CATEGORIES } from "./types"
+export { CATEGORIES } from "./types"
 
 // ==========================================
 // Q&A DATA MANAGEMENT FOR CLAUDE CODE

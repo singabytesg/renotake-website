@@ -1,7 +1,7 @@
 // Q&A Data Types for Easy Management
 // This structure is designed for Claude Code to easily add, modify, and organize Q&As
 
-export type QACategory =
+export type QACategoryType =
   | "hdb-bto-rules"
   | "renovation-costs"
   | "contractor-id"
@@ -16,7 +16,7 @@ export interface QAItem {
   question: string // The question as users would ask it
   shortAnswer: string // Quick 1-2 sentence answer (50-100 words)
   detailedAnswer: string // Comprehensive answer (200-500 words)
-  category: QACategory
+  category: QACategoryType
   subcategory?: string // Optional subcategory for better organization
   keywords: string[] // SEO keywords this Q&A targets
   relatedQuestions?: string[] // IDs of related questions
@@ -42,8 +42,8 @@ export interface QAItem {
   helpful?: { yes: number; no: number } // User feedback tracking
 }
 
-export interface QACategory {
-  id: QACategory
+export interface QACategoryInfo {
+  id: QACategoryType
   title: string
   description: string
   icon?: string // Lucide icon name
@@ -53,7 +53,7 @@ export interface QACategory {
 
 // Category metadata for display
 export const CATEGORIES: Record<
-  QACategory,
+  QACategoryType,
   { title: string; description: string; icon: string; color: string }
 > = {
   "hdb-bto-rules": {

@@ -9,7 +9,7 @@
 // 4. Update existing Q&As
 // 5. Generate SEO-optimized content
 
-import type { QAItem, QACategory } from "./types"
+import type { QAItem, QACategoryType } from "./types"
 
 // ==========================================
 // QUICK TEMPLATES FOR COMMON Q&A TYPES
@@ -18,7 +18,7 @@ import type { QAItem, QACategory } from "./types"
 export const QA_TEMPLATES = {
   // Cost-related question template
   cost: {
-    category: "renovation-costs" as QACategory,
+    category: "renovation-costs" as QACategoryType,
     keywords: ["cost", "price", "budget", "Singapore", "HDB", "BTO"],
     template: {
       question: "How much does [ITEM] cost in Singapore?",
@@ -51,7 +51,7 @@ export const QA_TEMPLATES = {
 
   // HDB rules question template
   hdbRules: {
-    category: "hdb-bto-rules" as QACategory,
+    category: "hdb-bto-rules" as QACategoryType,
     keywords: ["HDB", "BTO", "rules", "regulations", "allowed", "permit"],
     template: {
       question: "Can I [ACTION] in my HDB/BTO flat?",
@@ -90,7 +90,7 @@ export const QA_TEMPLATES = {
 
   // Timeline question template
   timeline: {
-    category: "timeline-process" as QACategory,
+    category: "timeline-process" as QACategoryType,
     keywords: ["timeline", "how long", "duration", "schedule", "days", "weeks", "months"],
     template: {
       question: "How long does [PROCESS] take?",
@@ -125,7 +125,7 @@ export const QA_TEMPLATES = {
 
   // Problem-solving question template
   problem: {
-    category: "common-problems" as QACategory,
+    category: "common-problems" as QACategoryType,
     keywords: ["problem", "issue", "defect", "wrong", "mistake", "fix"],
     template: {
       question: "What should I do if [PROBLEM]?",
@@ -231,7 +231,7 @@ export function generateQA(
     lastUpdated: new Date().toISOString().split("T")[0],
     priority: replacements.priority || 100,
     featured: replacements.featured || false,
-    sources: template.sources || [],
+    sources: (template as any).sources || [],
   }
 }
 

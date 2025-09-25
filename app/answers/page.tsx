@@ -22,7 +22,7 @@ import {
   ArrowRight,
 } from "lucide-react"
 import { questions, getFeaturedQuestions, searchQuestions, CATEGORIES } from "./_data/questions"
-import type { QAItem, QACategory as QACategoryType } from "./_data/types"
+import type { QAItem, QACategoryType } from "./_data/types"
 
 // Icon mapping for categories
 const iconMap: Record<string, any> = {
