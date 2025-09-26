@@ -78,13 +78,31 @@ export default function EmailCapturePopup() {
     setIsSubmitting(true)
 
     try {
-      // TODO: Replace with actual API call to your email service
-      await new Promise((resolve) => setTimeout(resolve, 1000))
+      const response = await fetch("/api/newsletter/subscribe", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email,
+          source: "popup_lead_magnet",
+        }),
+      })
 
-      // Track successful signup
+      const data = await response.json()
+
+      if (!response.ok) {
+        toast({
+          title: "Subscription failed",
+          description: data.error || "Something went wrong. Please try again.",
+          variant: "destructive",
+        })
+        setIsSubmitting(false)
+        return
+      }
+
       trackEmailSignup("popup_lead_magnet")
 
-      // Mark as subscribed
       localStorage.setItem("renotake_subscribed", "true")
       setHasSubscribed(true)
 
@@ -93,12 +111,10 @@ export default function EmailCapturePopup() {
         description: "Your HDB Renovation Checklist is on its way to your inbox!",
       })
 
-      // Trigger download
       const leadMagnetUrl =
         process.env.NEXT_PUBLIC_LEAD_MAGNET_URL || "/downloads/hdb-checklist.pdf"
       trackDownload("HDB Renovation Checklist 2024")
 
-      // Create temporary link and trigger download
       const link = document.createElement("a")
       link.href = leadMagnetUrl
       link.download = "HDB-Renovation-Checklist-2024.pdf"
@@ -110,7 +126,7 @@ export default function EmailCapturePopup() {
     } catch (error) {
       toast({
         title: "Error",
-        description: "Something went wrong. Please try again.",
+        description: "Unable to subscribe. Please check your connection and try again.",
         variant: "destructive",
       })
     } finally {

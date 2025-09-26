@@ -49,14 +49,44 @@ export default function HomePage() {
 
     setIsSubmitting(true)
 
-    setTimeout(() => {
+    try {
+      const response = await fetch("/api/newsletter/subscribe", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email,
+          source: "homepage_footer",
+        }),
+      })
+
+      const data = await response.json()
+
+      if (!response.ok) {
+        toast({
+          title: "Subscription failed",
+          description: data.error || "Something went wrong. Please try again.",
+          variant: "destructive",
+        })
+        setIsSubmitting(false)
+        return
+      }
+
       toast({
         title: "Subscription successful!",
-        description: "Welcome to the RenoTake community. Check your inbox for renovation tips!",
+        description: "Check your inbox for your free HDB renovation checklist!",
       })
       setEmail("")
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Unable to subscribe. Please check your connection and try again.",
+        variant: "destructive",
+      })
+    } finally {
       setIsSubmitting(false)
-    }, 1000)
+    }
   }
 
   return (
