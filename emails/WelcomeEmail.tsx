@@ -39,8 +39,8 @@ export default function WelcomeEmail({ downloadUrl }: WelcomeEmailProps) {
             </Text>
 
             <Text style={paragraph}>
-              As promised, here's your <strong>free HDB Renovation Checklist</strong> to help you
-              save money and avoid common mistakes:
+              As promised, here's your free HDB Renovation Checklist to help you save money and
+              avoid common mistakes:
             </Text>
 
             <Section style={buttonContainer}>
