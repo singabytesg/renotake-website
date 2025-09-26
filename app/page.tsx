@@ -152,7 +152,7 @@ export default function HomePage() {
               description="Line-by-line breakdown of actual renovation costs for a typical 4-room BTO flat, including hidden costs."
               category="Budget Planning"
               readTime="15 min read"
-              link="/guides/4-room-bto-cost-breakdown"
+              link="/guides/4-room-bto-cost"
               badge="Most Popular"
             />
             <GuideCard
@@ -160,7 +160,7 @@ export default function HomePage() {
               description="Complete guide to HDB permits, including which renovations need approval and step-by-step application."
               category="Regulations"
               readTime="10 min read"
-              link="/guides/hdb-permits-guide"
+              link="/guides/hdb-permits"
             />
             <GuideCard
               title="Choosing Between ID, Contractor, or DIY"
@@ -174,14 +174,14 @@ export default function HomePage() {
               description="Realistic renovation timeline for BTO flats, including buffer time and common delays."
               category="Timeline"
               readTime="8 min read"
-              link="/guides/bto-renovation-timeline"
+              link="/guides/ultimate-hdb-bto-guide/renovation-process/"
             />
             <GuideCard
               title="Red Flags in Contractor Quotations"
               description="Learn to spot overcharging, hidden costs, and unfair terms in renovation quotations."
               category="Contractors"
               readTime="10 min read"
-              link="/guides/quotation-red-flags"
+              link="/guides/singapore-renovation-contracts-disputes-guide/contractor-vetting/"
             />
             <GuideCard
               title="Overlay vs Hacking: Flooring Options Compared"
@@ -349,7 +349,7 @@ export default function HomePage() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/tools/timeline-planner" className="hover:text-gray-900">
+                  <Link href="/tools/renovation-timeline-planner" className="hover:text-gray-900">
                     Timeline Planner
                   </Link>
                 </li>
