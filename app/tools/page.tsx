@@ -31,9 +31,11 @@ export default function ToolsPage() {
                   <li>• Singapore-specific 2024 pricing</li>
                   <li>• Generate PDF report instantly</li>
                 </ul>
-                <Button className="w-full bg-green-600 hover:bg-green-700">
-                  <Link href="/tools/bto-budget-calculator">Calculate Budget</Link>
-                </Button>
+                <Link href="/tools/bto-budget-calculator" className="block">
+                  <Button className="w-full bg-green-600 hover:bg-green-700">
+                    Calculate Budget
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
 
@@ -54,9 +56,9 @@ export default function ToolsPage() {
                   <li>• Direct links to HDB forms</li>
                   <li>• Common rejection reasons</li>
                 </ul>
-                <Button className="w-full bg-green-600 hover:bg-green-700">
-                  <Link href="/tools/hdb-permit-checker">Check Permits</Link>
-                </Button>
+                <Link href="/tools/hdb-permit-checker" className="block">
+                  <Button className="w-full bg-green-600 hover:bg-green-700">Check Permits</Button>
+                </Link>
               </CardContent>
             </Card>
 
@@ -77,9 +79,9 @@ export default function ToolsPage() {
                   <li>• Buffer time recommendations</li>
                   <li>• Export to calendar format</li>
                 </ul>
-                <Button className="w-full bg-green-600 hover:bg-green-700">
-                  <Link href="/tools/renovation-timeline-planner">Plan Timeline</Link>
-                </Button>
+                <Link href="/tools/renovation-timeline-planner" className="block">
+                  <Button className="w-full bg-green-600 hover:bg-green-700">Plan Timeline</Button>
+                </Link>
               </CardContent>
             </Card>
 
@@ -100,9 +102,11 @@ export default function ToolsPage() {
                   <li>• Maintenance cost factors</li>
                   <li>• Supplier recommendations</li>
                 </ul>
-                <Button className="w-full bg-green-600 hover:bg-green-700">
-                  <Link href="/tools/material-cost-comparator">Compare Materials</Link>
-                </Button>
+                <Link href="/tools/material-cost-comparator" className="block">
+                  <Button className="w-full bg-green-600 hover:bg-green-700">
+                    Compare Materials
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
           </div>
@@ -113,9 +117,9 @@ export default function ToolsPage() {
               We're constantly developing new tools to help you plan your renovation better.
               Subscribe to get notified when new tools are released.
             </p>
-            <Button className="bg-green-600 hover:bg-green-700">
-              <Link href="/#newsletter">Get Updates</Link>
-            </Button>
+            <Link href="/#newsletter">
+              <Button className="bg-green-600 hover:bg-green-700">Get Updates</Button>
+            </Link>
           </div>
         </div>
       </main>
