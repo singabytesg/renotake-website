@@ -324,7 +324,10 @@ export default function HomePage() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/guides/contractor-management-guide" className="hover:text-gray-900">
+                  <Link
+                    href="/guides/singapore-renovation-contracts-disputes-guide"
+                    className="hover:text-gray-900"
+                  >
                     Contractor Guide
                   </Link>
                 </li>
@@ -339,7 +342,10 @@ export default function HomePage() {
               <h3 className="mb-4 font-medium">Tools</h3>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li>
-                  <Link href="/tools/bto-budget-calculator" className="hover:text-gray-900">
+                  <Link
+                    href="/guides/singapore-renovation-budgeting-bible/complete-cost-breakdown"
+                    className="hover:text-gray-900"
+                  >
                     Budget Calculator
                   </Link>
                 </li>

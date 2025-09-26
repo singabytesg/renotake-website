@@ -31,7 +31,10 @@ export default function ToolsPage() {
                   <li>• Singapore-specific 2024 pricing</li>
                   <li>• Generate PDF report instantly</li>
                 </ul>
-                <Link href="/tools/bto-budget-calculator" className="block">
+                <Link
+                  href="/guides/singapore-renovation-budgeting-bible/complete-cost-breakdown"
+                  className="block"
+                >
                   <Button className="w-full bg-green-600 hover:bg-green-700">
                     Calculate Budget
                   </Button>
