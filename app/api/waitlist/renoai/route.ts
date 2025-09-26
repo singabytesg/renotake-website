@@ -45,21 +45,18 @@ export async function POST(request: NextRequest) {
     const validatedData = waitlistSchema.parse(body)
     const { email, source } = validatedData
 
-    const renoaiAudienceId = process.env.RESEND_RENOAI_AUDIENCE_ID
+    const audienceId = process.env.RESEND_AUDIENCE_ID
 
-    if (renoaiAudienceId) {
+    if (audienceId) {
       try {
         await resend.contacts.create({
           email,
-          audienceId: renoaiAudienceId,
+          audienceId,
           unsubscribed: false,
         })
       } catch (error: any) {
         if (error?.message?.includes("already exists")) {
-          return NextResponse.json(
-            { error: "You're already on the RenoAI waitlist!" },
-            { status: 400 }
-          )
+          return NextResponse.json({ error: "You're already on our list!" }, { status: 400 })
         }
         throw error
       }
